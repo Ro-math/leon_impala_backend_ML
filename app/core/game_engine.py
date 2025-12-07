@@ -100,7 +100,9 @@ class GameEngine:
                 
             if flee_triggered:
                 state.impala.state = ImpalaState.FLEEING
-                state.flee_start_time = state.time_step
+                # Set flee_start_time to next step, since first flee movement happens in the next step
+                # This ensures duration=0 and speed=1 for the first flee movement
+                state.flee_start_time = state.time_step + 1
                 info = f"Flee triggered: {reason}"
 
         # Check End Conditions
