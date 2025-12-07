@@ -188,8 +188,10 @@ class GameEngine:
         state.impala.facing_direction = "east" if direction == 1 else "west"
 
     def _get_impala_speed(self, duration: int) -> int:
-        # Tn, Tn+1: 1
-        # Tn+2: 2
-        # Tn+3: 3
-        if duration <= 2: return 1
-        return duration - 1
+        # Impala acceleration when fleeing:
+        # Tn (duration=0): speed = 1
+        # Tn+1 (duration=1): speed = 2
+        # Tn+2 (duration=2): speed = 3
+        # Tn+3 (duration=3): speed = 4
+        # etc.
+        return duration + 1
