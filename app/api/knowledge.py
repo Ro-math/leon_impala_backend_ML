@@ -52,6 +52,36 @@ def clear_knowledge():
     training_manager.kb.clear()
     return {"message": "Knowledge cleared"}
 
+@router.post("/reset")
+def reset_learning():
+    """Reset all learning data, statistics, and delete knowledge files"""
+    import os
+    import shutil
+    
+    # Reset all learning data and statistics
+    training_manager.reset_learning()
+    
+    # Delete all knowledge files
+    knowledge_dir = "data/knowledge"
+    deleted_files = []
+    
+    if os.path.exists(knowledge_dir):
+        for filename in os.listdir(knowledge_dir):
+            filepath = os.path.join(knowledge_dir, filename)
+            if os.path.isfile(filepath):
+                os.remove(filepath)
+                deleted_files.append(filename)
+    
+    return {
+        "message": "Learning data reset successfully",
+        "details": {
+            "knowledge_base_cleared": True,
+            "statistics_reset": True,
+            "files_deleted": deleted_files,
+            "files_deleted_count": len(deleted_files)
+        }
+    }
+
 @router.get("/files", response_model=KnowledgeFilesResponse)
 def list_knowledge_files():
     import os

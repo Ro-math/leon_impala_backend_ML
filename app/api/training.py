@@ -78,6 +78,31 @@ class TrainingManager:
         if self.is_running:
             self.stop_requested = True
 
+    def reset_learning(self):
+        """Reset all learning data and statistics to initial state"""
+        if self.is_running:
+            raise HTTPException(status_code=400, detail="Cannot reset while training is in progress")
+        
+        # Clear knowledge base
+        self.kb.clear()
+        
+        # Reset all statistics
+        self.current_incursion = 0
+        self.total_incursions = 0
+        self.success_count = 0
+        self.fail_count = 0
+        self.progress = 0.0
+        self.total_steps = 0
+        
+        # Reset position-based statistics
+        self.success_rate_by_position = {k: 0.0 for k in GameMap.valid_lion_positions.keys()}
+        self.position_attempts = {k: 0 for k in GameMap.valid_lion_positions.keys()}
+        self.position_successes = {k: 0 for k in GameMap.valid_lion_positions.keys()}
+        
+        # Clear last request if exists
+        if hasattr(self, 'last_request'):
+            delattr(self, 'last_request')
+
     async def _training_loop(self, request: TrainingStartRequest, start_index: int = 0):
         self.last_request = request
         print(f"Starting training loop from {start_index}...")
