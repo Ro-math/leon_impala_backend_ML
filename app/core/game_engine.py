@@ -170,11 +170,21 @@ class GameEngine:
         # Move away from Lion's column.
         dy = state.lion.position[1] - state.impala.position[1]
         
-        # If Lion is same col, pick random or default? 
-        # Usually flee away. If dy > 0 (Lion is "East"/Right), go West (-1).
-        # If dy < 0 (Lion is "West"/Left), go East (1).
-        # If dy == 0, pick one? Let's say East.
-        direction = -1 if dy > 0 else 1 
+        # Flee away from lion
+        # If dy > 0 (Lion is "East"/Right of impala), go West (-1).
+        # If dy < 0 (Lion is "West"/Left of impala), go East (1).
+        # If dy == 0 (same column), flee towards the closer edge
+        if dy > 0:
+            direction = -1  # Go West
+        elif dy < 0:
+            direction = 1   # Go East
+        else:
+            # Same column - flee towards whichever edge is closer
+            impala_col = state.impala.position[1]
+            if impala_col < 9:  # Closer to west edge
+                direction = -1  # Go West
+            else:  # Closer to east edge or exactly in middle
+                direction = 1   # Go East
         
         # Update Y (Column)
         new_y = state.impala.position[1] + (direction * speed)
