@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api import simulation, training, hunting, knowledge, visualization, logs
+import os
 
 app = FastAPI(title="Leon Impala Simulation", version="1.0.0")
 FRONTEND_DOMAIN = os.getenv("FRONTEND_DOMAIN")
