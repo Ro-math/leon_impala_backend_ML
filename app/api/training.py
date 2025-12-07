@@ -140,11 +140,30 @@ class TrainingManager:
                 if self.position_attempts[k] > 0:
                     self.success_rate_by_position[k] = self.position_successes[k] / self.position_attempts[k]
 
+            # Periodic Save (every 100 episodes)
             if i % 100 == 0:
                 self.abstraction_engine.abstract_knowledge()
+                self.kb.save("knowledge_checkpoint")
+                self._save_log(i, state.history)
                 
+        # Final Save
+        self.kb.save("knowledge_final")
         self.is_running = False
         print("Training finished.")
+
+    def _save_log(self, episode_idx: int, history: list):
+        from app.storage.json_storage import JsonStorage
+        import datetime
+        
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"data/logs/training_ep{episode_idx}_{timestamp}.json"
+        
+        log_data = {
+            "episode": episode_idx,
+            "timestamp": timestamp,
+            "history": history
+        }
+        JsonStorage.save(log_data, filename)
 
 training_manager = TrainingManager()
 

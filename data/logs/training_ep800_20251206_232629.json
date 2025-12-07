@@ -1,0 +1,102 @@
+{
+  "episode": 800,
+  "timestamp": "20251206_232629",
+  "history": [
+    {
+      "time_step": 1,
+      "lion_pos": [
+        18,
+        0
+      ],
+      "impala_pos": [
+        9,
+        9
+      ],
+      "lion_state": "hidden",
+      "impala_state": "normal",
+      "lion_action": "hide",
+      "impala_action": "look_left",
+      "info": ""
+    },
+    {
+      "time_step": 2,
+      "lion_pos": [
+        16,
+        2
+      ],
+      "impala_pos": [
+        9,
+        9
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "drink",
+      "info": "Flee triggered: Lion attacking"
+    },
+    {
+      "time_step": 3,
+      "lion_pos": [
+        14,
+        4
+      ],
+      "impala_pos": [
+        9,
+        10
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "flee",
+      "info": ""
+    },
+    {
+      "time_step": 4,
+      "lion_pos": [
+        12,
+        6
+      ],
+      "impala_pos": [
+        9,
+        11
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "flee",
+      "info": ""
+    },
+    {
+      "time_step": 5,
+      "lion_pos": [
+        10,
+        8
+      ],
+      "impala_pos": [
+        9,
+        13
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "flee",
+      "info": ""
+    },
+    {
+      "time_step": 6,
+      "lion_pos": [
+        9,
+        10
+      ],
+      "impala_pos": [
+        9,
+        16
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "flee",
+      "info": " Impala escaped."
+    }
+  ]
+}

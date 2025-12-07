@@ -1,0 +1,134 @@
+{
+  "episode": 600,
+  "timestamp": "20251206_232629",
+  "history": [
+    {
+      "time_step": 1,
+      "lion_pos": [
+        9,
+        0
+      ],
+      "impala_pos": [
+        9,
+        9
+      ],
+      "lion_state": "hidden",
+      "impala_state": "normal",
+      "lion_action": "hide",
+      "impala_action": "look_front",
+      "info": ""
+    },
+    {
+      "time_step": 2,
+      "lion_pos": [
+        9,
+        0
+      ],
+      "impala_pos": [
+        9,
+        9
+      ],
+      "lion_state": "hidden",
+      "impala_state": "drinking",
+      "lion_action": "hide",
+      "impala_action": "drink",
+      "info": ""
+    },
+    {
+      "time_step": 3,
+      "lion_pos": [
+        9,
+        1
+      ],
+      "impala_pos": [
+        9,
+        9
+      ],
+      "lion_state": "normal",
+      "impala_state": "normal",
+      "lion_action": "advance",
+      "impala_action": "look_front",
+      "info": ""
+    },
+    {
+      "time_step": 4,
+      "lion_pos": [
+        9,
+        3
+      ],
+      "impala_pos": [
+        9,
+        9
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "look_right",
+      "info": "Flee triggered: Lion attacking"
+    },
+    {
+      "time_step": 5,
+      "lion_pos": [
+        9,
+        5
+      ],
+      "impala_pos": [
+        9,
+        10
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "flee",
+      "info": ""
+    },
+    {
+      "time_step": 6,
+      "lion_pos": [
+        9,
+        7
+      ],
+      "impala_pos": [
+        9,
+        11
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "flee",
+      "info": ""
+    },
+    {
+      "time_step": 7,
+      "lion_pos": [
+        9,
+        9
+      ],
+      "impala_pos": [
+        9,
+        13
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "flee",
+      "info": ""
+    },
+    {
+      "time_step": 8,
+      "lion_pos": [
+        9,
+        11
+      ],
+      "impala_pos": [
+        9,
+        16
+      ],
+      "lion_state": "attacking",
+      "impala_state": "fleeing",
+      "lion_action": "attack",
+      "impala_action": "flee",
+      "info": " Impala escaped."
+    }
+  ]
+}

@@ -7,7 +7,7 @@ class GameState:
     def __init__(self, lion_start_pos: Tuple[int, int]):
         self.map = GameMap()
         self.lion = Lion(position=lion_start_pos)
-        self.impala = Impala(position=(8, 9))
+        self.impala = Impala(position=(9, 9))
         self.time_step = 0
         self.history = []
         self.status = "in_progress" # in_progress, success, failed
@@ -166,17 +166,26 @@ class GameEngine:
         speed = self._get_impala_speed(duration)
         
         # Move East or West.
-        # Simple logic: Move away from Lion's x.
-        dx = state.lion.position[0] - state.impala.position[0]
-        direction = -1 if dx > 0 else 1 # If Lion is East, go West (-1).
+        # User confirmed (row, col) system. East/West is Column (index 1).
+        # Move away from Lion's column.
+        dy = state.lion.position[1] - state.impala.position[1]
         
-        # Update X
-        new_x = state.impala.position[0] + (direction * speed)
-        # Clamp to map? Or can it leave map?
-        # "El mapa es bidimensional de 19x19"
-        # If it leaves map, it escapes.
-        new_x = max(0, min(18, new_x))
-        state.impala.position = (new_x, state.impala.position[1])
+        # If Lion is same col, pick random or default? 
+        # Usually flee away. If dy > 0 (Lion is "East"/Right), go West (-1).
+        # If dy < 0 (Lion is "West"/Left), go East (1).
+        # If dy == 0, pick one? Let's say East.
+        direction = -1 if dy > 0 else 1 
+        
+        # Update Y (Column)
+        new_y = state.impala.position[1] + (direction * speed)
+        
+        # Clamp to map 19x19 (0-18)
+        new_y = max(0, min(18, new_y))
+        
+        state.impala.position = (state.impala.position[0], new_y)
+        
+        # Update Facing Direction
+        state.impala.facing_direction = "east" if direction == 1 else "west"
 
     def _get_impala_speed(self, duration: int) -> int:
         # Tn, Tn+1: 1
