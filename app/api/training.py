@@ -149,17 +149,17 @@ class TrainingManager:
 training_manager = TrainingManager()
 
 @router.post("/start")
-def start_training(request: TrainingStartRequest):
+async def start_training(request: TrainingStartRequest):
     training_manager.start_training(request)
     return {"message": "Training started"}
 
 @router.post("/resume")
-def resume_training():
+async def resume_training():
     training_manager.resume_training()
     return {"message": "Training resumed"}
 
 @router.post("/stop")
-def stop_training():
+async def stop_training():
     training_manager.stop_training()
     return {"message": "Training stop requested"}
 
