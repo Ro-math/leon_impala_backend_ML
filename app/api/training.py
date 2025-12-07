@@ -4,7 +4,7 @@ from fastapi import APIRouter, BackgroundTasks, HTTPException
 from app.models.requests import TrainingStartRequest
 from app.models.responses import TrainingStatusResponse, TrainingStatisticsResponse
 from app.core.game_engine import GameEngine, GameState, GameMap, ImpalaState
-from app.core.entities import LionAction, ImpalaAction
+from app.core.entities import LionAction, ImpalaAction, Lion, Impala
 from app.learning.knowledge_base import KnowledgeBase
 from app.learning.reinforcement import QLearningAgent
 from app.learning.abstraction import AbstractionEngine
@@ -26,6 +26,10 @@ class TrainingManager:
         self.agent = QLearningAgent(self.kb)
         self.engine = GameEngine()
         self.abstraction_engine = AbstractionEngine(self.kb)
+        
+        # Import reward system for shaped rewards
+        from app.learning.reward_system import RewardSystem
+        self.reward_system = RewardSystem()
         
         # Initialize stats
         self.success_rate_by_position = {k: 0.0 for k in GameMap.valid_lion_positions.keys()}
@@ -123,9 +127,12 @@ class TrainingManager:
             done = False
             steps = 0
             
+            # Reset eligibility traces at episode start
+            self.agent.reset_eligibility()
+            
             while not done:
                 steps += 1
-                # ... (Logic same as before)
+                # Determine Impala action
                 impala_action = ImpalaAction.LOOK_FRONT 
                 if request.impala_mode == "random":
                     choices = [a for a in ImpalaAction if a != ImpalaAction.FLEE]
@@ -134,15 +141,35 @@ class TrainingManager:
                     seq_idx = state.time_step % len(request.impala_sequence)
                     impala_action = request.impala_sequence[seq_idx]
                 
+                # Get current state key
                 state_key = self.agent.get_state_key(state.lion.position, impala_action, state.lion.state)
-                lion_action = self.agent.choose_action(state_key)
-                next_state, reward, done, info = self.engine.step(state, lion_action, impala_action)
                 
-                # Learn
-                self.agent.learn(state_key, lion_action, reward, "TERMINAL" if done else "NEXT_KEY_TODO")
-                # Note: "NEXT_KEY_TODO" is placeholder for the issue discussed earlier.
-                # Ideally we predict next Impala action or use current.
-                # For now, we keep it simple as implemented before.
+                # Choose action
+                lion_action = self.agent.choose_action(state_key)
+                
+                # Store previous state for reward shaping
+                prev_state = GameState(lion_start_pos=state.lion.position)
+                prev_state.lion = Lion(position=state.lion.position, state=state.lion.state)
+                prev_state.impala = Impala(position=state.impala.position, state=state.impala.state)
+                
+                # Execute action
+                next_state, base_reward, done, info = self.engine.step(state, lion_action, impala_action)
+                
+                # Calculate shaped reward
+                reward = self.reward_system.calculate_reward(prev_state, lion_action, next_state, done, info)
+                
+                # Get next state key
+                next_impala_action = ImpalaAction.LOOK_FRONT
+                if request.impala_mode == "random":
+                    next_impala_action = random.choice([a for a in ImpalaAction if a != ImpalaAction.FLEE])
+                elif request.impala_mode == "programmed" and request.impala_sequence:
+                    next_seq_idx = next_state.time_step % len(request.impala_sequence)
+                    next_impala_action = request.impala_sequence[next_seq_idx]
+                
+                next_state_key = self.agent.get_state_key(next_state.lion.position, next_impala_action, next_state.lion.state)
+                
+                # Learn with eligibility traces for faster credit assignment
+                self.agent.learn_with_traces(state_key, lion_action, reward, next_state_key, done)
                 
                 state = next_state
                 
@@ -153,13 +180,13 @@ class TrainingManager:
                         self.position_successes[start_pos_idx] += 1
                     else: 
                         self.fail_count += 1
-                    
-                    # Terminal update handled above or here?
-                    # learn() called above with done flag logic inside agent? 
-                    # My agent.learn uses next_state_key to look up max_q.
-                    # If terminal, max_q is 0.
-                    pass
 
+            # Decay epsilon after each episode
+            self.agent.decay_epsilon()
+            
+            # Learn from replay buffer (batch learning)
+            self.agent.learn_batch(batch_size=32)
+            
             # Update stats
             for k in self.position_attempts:
                 if self.position_attempts[k] > 0:
@@ -170,6 +197,7 @@ class TrainingManager:
                 self.abstraction_engine.abstract_knowledge()
                 self.kb.save("knowledge_checkpoint")
                 self._save_log(i, state.history)
+                print(f"Episode {i}: Success rate: {self.success_count/(i+1):.2%}, Epsilon: {self.agent.get_epsilon():.3f}")
                 
         # Final Save
         self.kb.save("knowledge_final")
