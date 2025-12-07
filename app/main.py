@@ -3,11 +3,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api import simulation, training, hunting, knowledge, visualization, logs
 
 app = FastAPI(title="Leon Impala Simulation", version="1.0.0")
+FRONTEND_DOMAIN = os.getenv("FRONTEND_DOMAIN")
+
 
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3000"],
+    allow_origins=[FRONTEND_DOMAIN],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
