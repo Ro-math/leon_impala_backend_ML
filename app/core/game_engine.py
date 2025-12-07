@@ -7,7 +7,7 @@ class GameState:
     def __init__(self, lion_start_pos: Tuple[int, int]):
         self.map = GameMap()
         self.lion = Lion(position=lion_start_pos)
-        self.impala = Impala(position=(9, 9))
+        self.impala = Impala(position=(8, 9))
         self.time_step = 0
         self.history = []
         self.status = "in_progress" # in_progress, success, failed
@@ -52,6 +52,11 @@ class GameEngine:
         # If Lion advances, 1 square
         # If Lion hides, state = HIDDEN
         
+        # Enforce Attack Persistence
+        # "Una vez que el león inicia un ataque no podrá realizar otra acción."
+        if state.lion.state == LionState.ATTACKING:
+            lion_action = LionAction.ATTACK
+            
         prev_lion_pos = state.lion.position
         
         if lion_action == LionAction.ATTACK:
@@ -104,7 +109,9 @@ class GameEngine:
         
         # Success: Lion reaches Impala (Distance < 1 or same square?)
         # "El león alcanza al impala"
-        if dist < 1.0: # Same square
+        # Success: Lion reaches Impala (Distance < 1 or same square?)
+        # "El león alcanza al impala"
+        if dist <= 1.0: # Same square or adjacent
             state.status = "success"
             done = True
             reward = 100.0
@@ -175,5 +182,5 @@ class GameEngine:
         # Tn, Tn+1: 1
         # Tn+2: 2
         # Tn+3: 3
-        if duration <= 1: return 1
-        return duration # 2->2, 3->3...
+        if duration <= 2: return 1
+        return duration - 1

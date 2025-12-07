@@ -58,12 +58,16 @@ def step_hunting():
     
     current_hunt_state = next_state
     
+    # Get the actual action performed from history (it might have been overridden to FLEE)
+    last_step_info = current_hunt_state.history[-1]
+    actual_impala_action = last_step_info["impala_action"]
+    
     return HuntingStepResponse(
         lion=current_hunt_state.lion,
         impala=current_hunt_state.impala,
         time_step=current_hunt_state.time_step,
         status=current_hunt_state.status,
-        impala_action=impala_action.value,
+        impala_action=actual_impala_action,
         lion_action=lion_action.value,
         info=info
     )
