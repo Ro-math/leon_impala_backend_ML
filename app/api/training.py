@@ -207,5 +207,7 @@ def get_training_statistics():
         total_incursions=training_manager.current_incursion,
         success_rate=success_rate,
         avg_steps=avg_steps,
-        success_rate_by_position=training_manager.success_rate_by_position
+        success_rate_by_position=training_manager.success_rate_by_position,
+        abstractions_count=len(training_manager.kb.abstractions),
+        q_table_size=len(training_manager.kb.q_table)
     )

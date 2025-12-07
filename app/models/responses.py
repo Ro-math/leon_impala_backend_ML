@@ -47,6 +47,8 @@ class TrainingStatisticsResponse(BaseModel):
     success_rate: float
     avg_steps: float
     success_rate_by_position: Dict[int, float]
+    abstractions_count: int
+    q_table_size: int
 
 class HuntingExplainResponse(BaseModel):
     explanation: str

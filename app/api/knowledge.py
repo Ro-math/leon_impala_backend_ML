@@ -5,12 +5,33 @@ from app.api.training import training_manager
 
 router = APIRouter()
 
-@router.get("/base", response_model=KnowledgeResponse)
+@router.get("/base")
 def get_knowledge_base():
-    return KnowledgeResponse(
-        q_table_size=len(training_manager.kb.q_table),
-        abstractions_count=len(training_manager.kb.abstractions)
-    )
+    # Return the full KB content for inspection
+    return {
+        "q_table_size": len(training_manager.kb.q_table),
+        "abstractions_count": len(training_manager.kb.abstractions),
+        "q_table": training_manager.kb.q_table,
+        "abstractions": training_manager.kb.abstractions
+    }
+
+@router.get("/download")
+def download_knowledge():
+    from fastapi.responses import FileResponse
+    import os
+    
+    # Ensure final file exists
+    filepath = "data/knowledge/knowledge_final.json"
+    if not os.path.exists(filepath):
+        # Try checkpoint
+        filepath = "data/knowledge/knowledge_checkpoint.json"
+        
+    if not os.path.exists(filepath):
+        # Save current state to temp
+        training_manager.kb.save("knowledge_download")
+        filepath = "data/knowledge/knowledge_download.json"
+        
+    return FileResponse(filepath, media_type='application/json', filename="knowledge_base.json")
 
 @router.get("/abstractions")
 def get_abstractions():

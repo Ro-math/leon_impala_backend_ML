@@ -1,339 +1,414 @@
 {
   "q_table": {
-    "9,18|look_left|normal": {
-      "advance": -0.6513215599000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
+    "9,0|look_right|normal": {
+      "advance": -0.7458134171671,
+      "hide": -0.7458134171671,
+      "attack": -0.717570463519
     },
     "NEXT_KEY_TODO": {
       "advance": 0.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "9,17|look_front|normal": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
+    "9,1|look_front|normal": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
     },
-    "9,16|look_left|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
+    "9,2|drink|normal": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
     },
-    "9,15|look_right|normal": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -10.0
+    "9,3|look_front|normal": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
     },
-    "9,14|look_front|normal": {
-      "advance": -10.090000000000002,
-      "hide": -9.1,
-      "attack": -10.30951
-    },
-    "9,13|look_right|normal": {
+    "9,4|drink|normal": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
-    "9,12|look_right|normal": {
+    "9,5|look_right|normal": {
+      "advance": 0.0,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "9,5|look_right|hidden": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "9,11|look_left|normal": {
-      "advance": 0.0,
+    "9,6|drink|normal": {
+      "advance": -0.1,
       "hide": 0.0,
-      "attack": -10.0
+      "attack": 0.0
+    },
+    "9,7|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "9,8|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,9|drink|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,10|look_right|normal": {
+      "advance": -10.0,
+      "hide": -0.1,
+      "attack": 0.0
     },
     "TERMINAL": {
       "advance": 0.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "9,18|look_right|normal": {
-      "advance": -0.7712320754503901,
-      "hide": -0.7458134171671,
-      "attack": -0.7712320754503901
-    },
-    "9,18|look_right|hidden": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "9,17|look_left|normal": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "9,16|look_front|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "9,15|look_left|normal": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "18,9|look_front|normal": {
-      "advance": -0.717570463519,
+    "0,0|look_left|normal": {
+      "advance": -27.1,
       "hide": -0.717570463519,
-      "attack": -0.68618940391
+      "attack": -0.717570463519
     },
-    "17,9|look_right|normal": {
-      "advance": -0.6513215599000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.5695327900000001
+    "9,0|look_left|normal": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.6125795110000001
     },
-    "16,9|look_front|normal": {
+    "9,1|look_right|normal": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "9,2|look_left|normal": {
       "advance": -0.34390000000000004,
       "hide": -0.34390000000000004,
       "attack": -0.34390000000000004
     },
-    "15,9|look_right|normal": {
+    "9,3|look_left|normal": {
       "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "14,9|look_right|normal": {
-      "advance": -0.19,
       "hide": -0.19,
-      "attack": -0.271
-    },
-    "13,9|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "12,9|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 10.0
-    },
-    "11,9|look_right|normal": {
-      "advance": 19.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,18|look_front|hidden": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
-    },
-    "9,17|drink|hidden": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "9,16|drink|normal": {
-      "advance": -0.271,
-      "hide": -0.271,
       "attack": -0.19
     },
-    "9,15|look_right|hidden": {
+    "9,4|look_right|normal": {
+      "advance": -10.0,
+      "hide": -0.19,
+      "attack": -10.090000000000002
+    },
+    "9,0|look_front|hidden": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "9,1|drink|normal": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "9,2|look_front|hidden": {
       "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.19
+    },
+    "9,3|drink|normal": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "9,3|look_left|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "9,4|look_front|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "9,5|look_left|normal": {
+      "advance": -0.1,
       "hide": -10.0,
       "attack": -0.1
     },
-    "9,14|look_left|normal": {
-      "advance": -0.1,
-      "hide": -10.0,
+    "9,6|look_front|normal": {
+      "advance": -10.0,
+      "hide": -0.1,
       "attack": 0.0
     },
-    "9,13|look_front|hidden": {
+    "0,9|look_front|normal": {
+      "advance": -0.7458134171671,
+      "hide": -0.68618940391,
+      "attack": -0.68618940391
+    },
+    "1,9|look_left|normal": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5217031000000001
+    },
+    "2,10|drink|normal": {
       "advance": -0.1,
-      "hide": 0.0,
+      "hide": -0.1,
+      "attack": -10.0
+    },
+    "3,11|look_front|normal": {
+      "advance": -10.0,
+      "hide": -0.1,
       "attack": 0.0
     },
-    "9,12|drink|normal": {
+    "3,11|look_right|hidden": {
       "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     },
     "0,18|drink|normal": {
-      "advance": -0.814697981114816,
-      "hide": -0.7941088679053511,
-      "attack": -0.7941088679053511
+      "advance": -0.717570463519,
+      "hide": -0.68618940391,
+      "attack": -0.6513215599000001
     },
-    "1,17|drink|normal": {
+    "1,17|look_right|normal": {
       "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "2,16|look_right|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -10.0,
+      "hide": -0.271,
       "attack": -0.271
     },
+    "2,16|drink|normal": {
+      "advance": -0.19,
+      "hide": -10.0,
+      "attack": -0.1
+    },
     "3,15|look_right|normal": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.19
+    },
+    "4,14|drink|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "5,13|look_right|normal": {
+      "advance": -10.0,
+      "hide": -0.1,
+      "attack": -10.0
+    },
+    "18,9|look_front|normal": {
+      "advance": -0.68618940391,
+      "hide": -0.6513215599000001,
+      "attack": -0.6513215599000001
+    },
+    "17,9|look_right|normal": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "16,9|look_front|normal": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "14,9|drink|attacking": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "12,10|look_front|attacking": {
+      "advance": 52.17031,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "18,9|drink|normal": {
+      "advance": -0.717570463519,
+      "hide": -0.717570463519,
+      "attack": -0.717570463519
+    },
+    "18,9|look_left|hidden": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "17,9|look_right|hidden": {
+      "advance": -0.40951000000000004,
+      "hide": -0.40951000000000004,
+      "attack": -0.34390000000000004
+    },
+    "15,9|drink|normal": {
       "advance": -0.19,
       "hide": -0.19,
       "attack": -0.1
     },
-    "4,14|look_left|normal": {
-      "advance": -0.1,
-      "hide": -10.0,
-      "attack": 0.0
-    },
-    "5,13|drink|normal": {
+    "13,9|look_left|attacking": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "6,12|look_left|normal": {
-      "advance": -10.0,
+    "11,10|drink|attacking": {
+      "advance": 34.39,
       "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,0|drink|hidden": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "9,1|drink|hidden": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,2|look_left|hidden": {
+      "advance": -0.19,
+      "hide": -0.19,
       "attack": -0.1
     },
-    "18,0|look_right|normal": {
+    "9,3|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,4|look_left|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "9,2|look_right|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.40951000000000004
+    },
+    "9,4|look_front|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -9.378559
+    },
+    "9,6|look_right|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -10.30951
+    },
+    "9,8|look_left|attacking": {
+      "advance": -61.2579511,
+      "hide": -59.28630499,
+      "attack": -61.2579511
+    },
+    "18,9|look_left|normal": {
+      "advance": -0.68618940391,
+      "hide": -0.68618940391,
+      "attack": -0.68618940391
+    },
+    "15,9|look_left|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "13,10|look_left|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.271
+    },
+    "11,11|look_front|attacking": {
+      "advance": 7.91,
+      "hide": 46.58693938258159,
+      "attack": 10.0
+    },
+    "0,9|drink|normal": {
       "advance": -0.68618940391,
       "hide": -0.68618940391,
       "attack": -0.6513215599000001
     },
-    "17,1|look_front|normal": {
+    "1,9|drink|normal": {
       "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
+      "hide": -0.40951000000000004,
       "attack": -0.34390000000000004
     },
-    "16,2|look_left|normal": {
-      "advance": -0.271,
+    "2,9|look_front|normal": {
+      "advance": -0.19,
       "hide": -0.19,
-      "attack": -0.19
+      "attack": -0.1
     },
-    "15,3|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.19
-    },
-    "14,4|look_left|normal": {
+    "3,9|drink|normal": {
       "advance": -0.19,
       "hide": -0.1,
       "attack": -0.1
     },
-    "13,5|drink|normal": {
+    "4,10|look_left|normal": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "12,6|look_front|normal": {
-      "advance": -10.0,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "0,18|look_front|normal": {
-      "advance": -19.0,
-      "hide": -0.6513215599000001,
-      "attack": -0.6125795110000001
-    },
-    "0,0|drink|normal": {
-      "advance": -0.6125795110000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
-    },
-    "1,1|look_right|normal": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "2,2|drink|normal": {
+    "5,11|look_front|normal": {
       "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "3,3|look_front|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "4,4|look_right|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "5,5|look_left|normal": {
-      "advance": -10.090000000000002,
       "hide": -10.0,
-      "attack": -0.1
-    },
-    "6,6|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
       "attack": 0.0
     },
-    "7,7|look_left|normal": {
+    "6,12|look_front|normal": {
       "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "9,17|drink|normal": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "9,16|drink|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "18,9|look_left|normal": {
-      "advance": -0.6125795110000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
-    },
-    "17,9|look_front|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "16,9|drink|normal": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "15,9|look_left|hidden": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "14,9|look_right|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "13,9|drink|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "12,9|drink|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 10.0
-    },
-    "11,9|look_left|normal": {
-      "advance": 27.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "0,0|look_right|normal": {
+    "18,18|look_left|normal": {
       "advance": -0.6513215599000001,
       "hide": -0.6125795110000001,
       "attack": -0.6125795110000001
     },
-    "1,1|look_front|normal": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
+    "17,17|drink|normal": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
     },
-    "2,2|look_left|normal": {
-      "advance": -0.19,
-      "hide": -10.0,
-      "attack": -0.1
+    "16,16|drink|normal": {
+      "advance": -0.34390000000000004,
+      "hide": -10.090000000000002,
+      "attack": -0.34390000000000004
     },
-    "3,3|look_left|normal": {
+    "15,15|drink|normal": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": 0.0
+    },
+    "14,14|look_left|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "13,13|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "13,13|drink|hidden": {
+      "advance": 0.0,
+      "hide": 0.0,
+      "attack": -0.1
+    },
+    "11,11|look_left|attacking": {
+      "advance": 30.624384114046183,
+      "hide": -10.0,
+      "attack": 0.0
+    },
+    "0,0|drink|hidden": {
+      "advance": -0.40951000000000004,
+      "hide": -0.40951000000000004,
+      "attack": -0.34390000000000004
+    },
+    "1,1|look_left|normal": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "2,2|look_front|normal": {
+      "advance": -0.271,
+      "hide": -10.0,
+      "attack": -0.19
+    },
+    "3,3|drink|normal": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
     },
     "4,4|look_front|normal": {
       "advance": -0.1,
@@ -342,257 +417,127 @@
     },
     "5,5|look_front|normal": {
       "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "18,18|look_left|normal": {
-      "advance": -0.6125795110000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
-    },
-    "17,17|drink|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "16,16|look_left|normal": {
-      "advance": -0.271,
-      "hide": -10.0,
-      "attack": -0.271
-    },
-    "15,15|drink|normal": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.19
-    },
-    "14,14|drink|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "13,13|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "12,12|drink|normal": {
-      "advance": -0.1,
-      "hide": -10.0,
-      "attack": 0.0
-    },
-    "11,11|drink|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "10,10|look_front|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "9,9|look_right|normal": {
-      "advance": -10.0,
       "hide": -0.1,
       "attack": -0.1
     },
-    "18,9|drink|hidden": {
-      "advance": -0.46855900000000006,
-      "hide": -0.5695327900000001,
-      "attack": -0.46855900000000006
+    "9,2|look_left|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.271
     },
-    "17,9|look_left|normal": {
+    "9,4|look_left|attacking": {
       "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "16,9|look_right|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "15,9|drink|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "14,9|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "13,9|look_front|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "12,9|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "16,9|look_left|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "14,10|drink|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.46855900000000006,
+      "hide": -0.40951000000000004,
       "attack": -0.40951000000000004
     },
-    "12,11|look_front|attacking": {
-      "advance": 71.7570463519,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,0|look_left|normal": {
-      "advance": -0.68618940391,
-      "hide": -0.68618940391,
-      "attack": -0.6513215599000001
-    },
-    "9,1|look_left|normal": {
-      "advance": -0.271,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "9,2|look_right|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "9,3|look_left|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.19
-    },
-    "9,4|drink|normal": {
-      "advance": -10.0,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "9,16|drink|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.5217031000000001,
-      "attack": -0.40951000000000004
-    },
-    "9,14|look_right|attacking": {
-      "advance": -0.6513215599000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
-    },
-    "9,12|look_left|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.46855900000000006,
-      "attack": -9.253900000000002
-    },
-    "9,10|look_front|attacking": {
-      "advance": -44.15131,
-      "hide": -48.977325721000014,
-      "attack": -44.15131
-    },
-    "0,9|look_right|normal": {
-      "advance": -0.6125795110000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
-    },
-    "1,9|look_right|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "2,9|drink|normal": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "3,9|look_front|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "4,9|look_front|normal": {
-      "advance": -0.1,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "5,10|look_left|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "6,11|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "7,12|look_left|normal": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "0,9|look_left|normal": {
-      "advance": -0.6125795110000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "1,9|look_right|hidden": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "2,9|look_front|normal": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "3,9|drink|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "4,10|look_left|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,11|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "6,12|look_front|normal": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "0,18|look_front|hidden": {
-      "advance": -19.0,
-      "hide": -0.5695327900000001,
-      "attack": -0.5217031000000001
-    },
-    "9,0|drink|normal": {
-      "advance": -0.717570463519,
-      "hide": -0.68618940391,
-      "attack": -0.68618940391
-    },
-    "9,1|drink|normal": {
+    "9,6|look_left|attacking": {
       "advance": -0.46855900000000006,
       "hide": -0.40951000000000004,
       "attack": -0.40951000000000004
     },
-    "9,2|look_front|normal": {
-      "advance": -0.34390000000000004,
+    "9,8|look_right|attacking": {
+      "advance": -44.15131,
+      "hide": -46.8559,
+      "attack": -46.8559
+    },
+    "0,18|look_right|normal": {
+      "advance": -19.0,
+      "hide": -0.7712320754503901,
+      "attack": -0.7712320754503901
+    },
+    "0,18|look_right|hidden": {
+      "advance": -10.0,
+      "hide": -0.6513215599000001,
+      "attack": -0.6125795110000001
+    },
+    "0,9|look_right|hidden": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "1,9|look_front|hidden": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "2,9|drink|normal": {
+      "advance": -0.271,
       "hide": -0.271,
       "attack": -0.19
     },
-    "9,3|look_front|normal": {
-      "advance": -0.19,
+    "3,10|look_front|normal": {
+      "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
-    "9,4|look_left|normal": {
+    "4,11|look_front|normal": {
       "advance": -0.1,
       "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,12|look_left|normal": {
+      "advance": -10.0,
+      "hide": -10.0,
+      "attack": 0.0
+    },
+    "9,18|look_right|normal": {
+      "advance": -0.6513215599000001,
+      "hide": -0.6513215599000001,
+      "attack": -0.6125795110000001
+    },
+    "9,18|look_left|hidden": {
+      "advance": -0.46855900000000006,
+      "hide": -0.40951000000000004,
+      "attack": -0.46855900000000006
+    },
+    "9,17|drink|normal": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "9,16|look_right|normal": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,15|look_left|normal": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -10.0
+    },
+    "9,14|look_left|normal": {
+      "advance": -10.0,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "9,12|look_right|attacking": {
+      "advance": -0.6125795110000001,
+      "hide": -9.253900000000002,
+      "attack": -0.5695327900000001
+    },
+    "9,10|drink|attacking": {
+      "advance": -65.13215599,
+      "hide": -61.401840391,
+      "attack": -61.2579511
+    },
+    "9,0|drink|normal": {
+      "advance": -0.6125795110000001,
+      "hide": -0.6125795110000001,
+      "attack": -0.6125795110000001
+    },
+    "9,1|look_front|hidden": {
+      "advance": -0.271,
+      "hide": -10.0,
+      "attack": -0.19
+    },
+    "9,2|look_right|normal": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "9,4|look_front|normal": {
+      "advance": -0.1,
+      "hide": -10.0,
       "attack": 0.0
     },
     "9,5|drink|normal": {
@@ -600,777 +545,227 @@
       "hide": 0.0,
       "attack": 0.0
     },
-    "9,6|drink|normal": {
+    "9,6|drink|hidden": {
       "advance": -0.1,
-      "hide": -0.1,
+      "hide": 0.0,
       "attack": 0.0
     },
     "9,7|drink|normal": {
       "advance": -0.1,
-      "hide": -10.0,
+      "hide": 0.0,
       "attack": 0.0
     },
-    "9,8|look_front|normal": {
-      "advance": -10.0,
+    "9,8|drink|normal": {
+      "advance": 0.0,
       "hide": -0.1,
       "attack": 0.0
     },
-    "9,18|drink|normal": {
-      "advance": -0.7458134171671,
-      "hide": -0.717570463519,
-      "attack": -0.717570463519
+    "9,8|look_right|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
     },
-    "9,17|look_left|hidden": {
+    "9,9|look_right|normal": {
+      "advance": -10.0,
+      "hide": -10.0,
+      "attack": -10.0
+    },
+    "16,9|look_right|normal": {
+      "advance": -0.46855900000000006,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "15,9|look_front|normal": {
       "advance": -0.19,
       "hide": -0.19,
       "attack": -0.19
     },
-    "9,16|look_right|normal": {
+    "14,9|look_left|normal": {
       "advance": -0.19,
-      "hide": -0.40951000000000004,
+      "hide": -0.1,
       "attack": -0.1
     },
-    "9,12|drink|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
+    "13,9|drink|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
     },
-    "9,10|look_left|attacking": {
-      "advance": -52.14426939100001,
-      "hide": -52.17031,
-      "attack": -52.21813969000001
+    "12,9|look_left|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 10.0
     },
-    "0,9|drink|normal": {
-      "advance": -0.6125795110000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.5695327900000001
-    },
-    "3,9|look_left|attacking": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "5,10|drink|attacking": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "7,11|drink|attacking": {
-      "advance": 31.309379,
+    "11,9|look_front|normal": {
+      "advance": 19.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "0,18|look_right|normal": {
-      "advance": -19.0,
-      "hide": -0.68618940391,
-      "attack": -0.68618940391
+    "2,16|drink|attacking": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
     },
-    "0,18|look_left|hidden": {
+    "4,14|drink|attacking": {
+      "advance": -0.6513215599000001,
+      "hide": -0.6513215599000001,
+      "attack": -0.6513215599000001
+    },
+    "6,12|look_right|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -9.319510000000001
+    },
+    "8,10|drink|attacking": {
+      "advance": -56.953279,
+      "hide": -52.17031,
+      "attack": -52.21813969000001
+    },
+    "18,9|drink|hidden": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "17,9|drink|normal": {
       "advance": -0.5217031000000001,
       "hide": -0.5217031000000001,
       "attack": -0.5217031000000001
     },
-    "1,17|look_left|normal": {
+    "11,11|drink|attacking": {
+      "advance": 33.7134407428,
+      "hide": 0.0,
+      "attack": 10.0
+    },
+    "0,0|drink|normal": {
+      "advance": -0.717570463519,
+      "hide": -0.717570463519,
+      "attack": -0.717570463519
+    },
+    "2,2|look_front|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
+    },
+    "4,4|look_left|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
+    },
+    "6,6|look_front|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.6125795110000001
+    },
+    "8,8|look_front|attacking": {
+      "advance": -40.951,
+      "hide": -40.951,
+      "attack": -44.15131
+    },
+    "9,18|look_front|normal": {
+      "advance": -0.7941088679053511,
+      "hide": -0.7712320754503901,
+      "attack": -0.7712320754503901
+    },
+    "9,17|look_left|normal": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "9,16|look_front|normal": {
+      "advance": -0.46855900000000006,
+      "hide": -10.0,
+      "attack": -0.46855900000000006
+    },
+    "9,15|look_front|normal": {
+      "advance": -10.171000000000001,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "9,14|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "9,14|look_front|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -10.0
+    },
+    "9,13|look_left|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "9,12|look_front|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "9,11|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,10|look_left|hidden": {
+      "advance": 0.0,
+      "hide": 0.0,
+      "attack": -0.1
+    },
+    "0,18|look_left|normal": {
+      "advance": -0.717570463519,
+      "hide": -0.68618940391,
+      "attack": -0.68618940391
+    },
+    "1,17|drink|normal": {
       "advance": -0.34390000000000004,
       "hide": -0.271,
       "attack": -0.271
     },
     "2,16|look_left|normal": {
       "advance": -0.271,
-      "hide": -0.271,
+      "hide": -10.090000000000002,
       "attack": -0.271
     },
-    "3,15|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "4,14|look_right|normal": {
-      "advance": -0.1,
-      "hide": -10.0,
-      "attack": -0.1
-    },
-    "5,13|look_front|normal": {
+    "3,15|look_front|normal": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "6,12|drink|normal": {
-      "advance": -10.0,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "6,12|look_front|hidden": {
+    "4,14|look_front|hidden": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "7,11|look_right|normal": {
-      "advance": 0.0,
-      "hide": -10.0,
-      "attack": 0.0
-    },
-    "0,0|look_left|normal": {
-      "advance": -19.0,
-      "hide": -0.7712320754503901,
-      "attack": -0.7712320754503901
-    },
-    "9,0|look_right|normal": {
-      "advance": -0.6513215599000001,
-      "hide": -0.6513215599000001,
-      "attack": -0.6125795110000001
-    },
-    "9,1|look_front|normal": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
-    },
-    "9,2|look_front|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "9,3|look_left|hidden": {
-      "advance": -10.090000000000002,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "9,4|look_right|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "9,5|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "9,6|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "18,0|look_right|hidden": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "17,1|look_right|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "16,2|drink|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -9.1,
-      "attack": -0.34390000000000004
-    },
-    "15,3|drink|hidden": {
-      "advance": -0.1,
-      "hide": -10.0,
-      "attack": 0.0
-    },
-    "14,4|drink|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "13,5|look_right|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "12,6|look_right|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "11,7|look_front|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "10,8|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,9|look_right|hidden": {
+    "5,13|look_left|hidden": {
       "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "9,17|look_right|normal": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
-    },
-    "9,16|look_right|hidden": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.19
-    },
-    "9,13|drink|attacking": {
-      "advance": -9.1,
-      "hide": -10.368559000000001,
-      "attack": -10.368559000000001
-    },
-    "9,0|look_left|hidden": {
-      "advance": -0.46855900000000006,
-      "hide": -0.46855900000000006,
-      "attack": -0.40951000000000004
-    },
-    "9,1|look_right|normal": {
-      "advance": -0.6513215599000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
-    },
-    "9,4|look_right|attacking": {
-      "advance": -0.6125795110000001,
-      "hide": -9.1,
-      "attack": -0.5695327900000001
-    },
-    "9,6|look_front|attacking": {
-      "advance": -8.29,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "18,0|look_left|normal": {
-      "advance": -27.1,
-      "hide": -0.814697981114816,
-      "attack": -0.7941088679053511
-    },
-    "17,9|look_right|hidden": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "16,9|look_left|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "15,9|drink|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "14,9|drink|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": -0.1
-    },
-    "13,9|look_left|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "12,9|look_front|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "18,0|look_front|normal": {
-      "advance": -0.6513215599000001,
-      "hide": -0.6513215599000001,
-      "attack": -0.6125795110000001
-    },
-    "17,1|look_left|normal": {
-      "advance": -0.46855900000000006,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
-    },
-    "0,0|look_right|hidden": {
-      "advance": -0.6125795110000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "1,1|look_left|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "2,2|look_right|normal": {
-      "advance": -0.271,
-      "hide": -10.0,
-      "attack": -0.271
-    },
-    "3,3|look_right|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "4,4|look_left|normal": {
-      "advance": -0.19,
-      "hide": -10.0,
-      "attack": -0.1
-    },
-    "9,2|look_right|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
-    },
-    "9,4|look_left|attacking": {
-      "advance": -0.6513215599000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
-    },
-    "9,6|drink|attacking": {
+    "0,18|drink|hidden": {
       "advance": -0.5217031000000001,
       "hide": -0.5217031000000001,
       "attack": -0.46855900000000006
     },
-    "9,8|look_front|attacking": {
-      "advance": -56.953279,
-      "hide": -56.953279,
-      "attack": -53.2389511
+    "1,17|look_front|normal": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
     },
-    "0,9|drink|hidden": {
-      "advance": -0.46855900000000006,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
+    "2,16|look_front|normal": {
+      "advance": -0.19,
+      "hide": -10.0,
+      "attack": -0.19
+    },
+    "3,15|drink|hidden": {
+      "advance": -9.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "0,9|look_right|normal": {
+      "advance": -0.6125795110000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5695327900000001
     },
     "1,9|look_front|normal": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
-    },
-    "2,9|look_right|normal": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "3,10|drink|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "4,11|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,12|drink|normal": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,16|look_left|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "9,10|drink|attacking": {
-      "advance": -51.107428,
-      "hide": -48.043279,
-      "attack": -48.1359511
-    },
-    "0,0|drink|hidden": {
-      "advance": -0.46855900000000006,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
-    },
-    "1,1|look_left|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "0,9|look_front|hidden": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "1,9|look_left|normal": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "2,10|look_front|normal": {
-      "advance": -0.19,
-      "hide": -10.0,
-      "attack": -0.1
-    },
-    "3,11|drink|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": -0.1
-    },
-    "5,13|look_left|attacking": {
-      "advance": -10.0,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "0,9|look_front|normal": {
-      "advance": -0.717570463519,
-      "hide": -0.717570463519,
-      "attack": -0.68618940391
-    },
-    "1,9|look_left|hidden": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "18,18|look_right|normal": {
-      "advance": -27.1,
-      "hide": -0.717570463519,
-      "attack": -0.717570463519
-    },
-    "9,18|look_front|normal": {
-      "advance": -0.68618940391,
-      "hide": -0.68618940391,
-      "attack": -0.6513215599000001
-    },
-    "9,15|look_right|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "9,13|look_right|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.271,
-      "attack": -0.19
-    },
-    "9,11|look_right|attacking": {
-      "advance": -19.1539,
-      "hide": -10.30951,
-      "attack": -19.1539
-    },
-    "9,9|look_right|attacking": {
-      "advance": -64.357315012,
-      "hide": -67.4954209729,
-      "attack": -62.847046351900005
-    },
-    "18,0|drink|normal": {
-      "advance": -0.7458134171671,
-      "hide": -0.7458134171671,
-      "attack": -0.717570463519
-    },
-    "17,1|drink|hidden": {
-      "advance": -0.19,
-      "hide": -0.271,
-      "attack": -0.1
-    },
-    "16,2|look_right|normal": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "15,3|look_right|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "14,4|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "13,5|look_left|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "12,6|look_front|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -10.0
-    },
-    "11,7|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "11,7|look_left|hidden": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "18,18|look_front|normal": {
-      "advance": -0.717570463519,
-      "hide": -0.717570463519,
-      "attack": -0.68618940391
-    },
-    "17,17|look_left|normal": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
-    },
-    "16,16|look_front|normal": {
-      "advance": -0.271,
-      "hide": -10.090000000000002,
-      "attack": -0.19
-    },
-    "15,15|look_right|hidden": {
-      "advance": -0.19,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "14,14|look_right|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "13,13|drink|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "12,12|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "11,11|look_left|normal": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "2,16|look_left|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.46855900000000006
-    },
-    "4,14|drink|attacking": {
-      "advance": -0.6125795110000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "6,12|look_left|attacking": {
-      "advance": -0.68618940391,
-      "hide": -0.6513215599000001,
-      "attack": -0.6513215599000001
-    },
-    "8,10|look_left|attacking": {
-      "advance": -47.952284491,
-      "hide": -56.953279,
-      "attack": -47.387341000000006
-    },
-    "2,9|look_front|attacking": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "4,10|look_front|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "6,11|look_front|attacking": {
-      "advance": 74.58134171671,
-      "hide": 19.0,
-      "attack": 10.0
-    },
-    "18,18|drink|normal": {
-      "advance": -0.6513215599000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
-    },
-    "17,17|drink|hidden": {
-      "advance": -0.34390000000000004,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "16,16|look_right|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -10.171000000000001,
-      "attack": -0.271
-    },
-    "16,16|drink|hidden": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "13,13|look_left|attacking": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "11,11|drink|attacking": {
-      "advance": 35.76340029825191,
-      "hide": -0.1,
-      "attack": -10.0
-    },
-    "9,9|look_front|attacking": {
-      "advance": -56.996325721000005,
-      "hide": -61.2579511,
-      "attack": -60.599940391000004
-    },
-    "9,7|look_front|attacking": {
-      "advance": -9.1,
-      "hide": -5.054149000000001,
-      "attack": -10.243900000000002
-    },
-    "1,17|look_front|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "0,18|look_left|normal": {
-      "advance": -0.7712320754503901,
-      "hide": -0.7458134171671,
-      "attack": -0.7458134171671
-    },
-    "3,15|look_left|attacking": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "5,13|drink|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "7,11|look_front|attacking": {
-      "advance": -0.19,
-      "hide": 18.4298935328,
-      "attack": 0.0
-    },
-    "9,9|look_left|attacking": {
-      "advance": -72.388068235039,
-      "hide": -71.7570463519,
-      "attack": -71.7570463519
-    },
-    "2,2|look_left|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "4,4|look_left|attacking": {
-      "advance": -0.68618940391,
-      "hide": -0.6125795110000001,
-      "attack": -0.5695327900000001
-    },
-    "6,6|look_front|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
-    },
-    "8,8|drink|attacking": {
-      "advance": -39.6388,
-      "hide": -40.360510000000005,
-      "attack": -34.39
-    },
-    "17,17|look_right|normal": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
-    },
-    "17,17|look_left|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "15,15|look_left|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "14,14|look_front|normal": {
-      "advance": -0.1,
-      "hide": -10.0,
-      "attack": -0.1
-    },
-    "13,13|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "9,0|look_front|normal": {
-      "advance": -0.7458134171671,
-      "hide": -0.717570463519,
-      "attack": -0.68618940391
-    },
-    "9,3|drink|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
-    },
-    "9,5|look_front|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "9,7|look_right|attacking": {
-      "advance": -10.171000000000001,
-      "hide": -15.682969,
-      "attack": -10.0
-    },
-    "9,0|drink|hidden": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "9,1|look_left|hidden": {
-      "advance": -9.181000000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "9,3|drink|normal": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "9,5|drink|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "9,7|look_left|attacking": {
-      "advance": -16.8049,
-      "hide": -10.171000000000001,
-      "attack": -16.8049
-    },
-    "0,0|look_left|hidden": {
-      "advance": -19.0,
-      "hide": -0.5695327900000001,
-      "attack": -0.5217031000000001
-    },
-    "18,9|look_right|hidden": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "15,9|look_right|attacking": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.19
-    },
-    "13,10|look_right|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "11,11|look_front|attacking": {
-      "advance": 38.367588169,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "18,9|look_right|normal": {
-      "advance": -0.68618940391,
-      "hide": -0.68618940391,
-      "attack": -0.6513215599000001
-    },
-    "17,9|drink|normal": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "14,9|drink|attacking": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "12,10|look_left|attacking": {
-      "advance": 46.8559,
-      "hide": 0.0,
-      "attack": 10.0
-    },
-    "0,9|look_left|hidden": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.40951000000000004
-    },
-    "1,9|drink|normal": {
       "advance": -0.46855900000000006,
       "hide": -0.46855900000000006,
       "attack": -0.40951000000000004
@@ -1380,375 +775,1015 @@
       "hide": -0.1,
       "attack": -0.1
     },
-    "3,9|look_right|normal": {
+    "3,10|look_left|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,11|drink|normal": {
+      "advance": 0.0,
+      "hide": -10.0,
+      "attack": 0.0
+    },
+    "18,9|look_front|hidden": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "17,9|look_front|normal": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.40951000000000004
+    },
+    "16,9|look_left|normal": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "15,9|look_left|normal": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "14,9|drink|normal": {
       "advance": -0.19,
       "hide": -0.19,
       "attack": -0.1
     },
-    "4,9|look_front|hidden": {
-      "advance": -0.1,
+    "13,9|look_left|normal": {
+      "advance": -0.19,
       "hide": -0.1,
       "attack": -0.1
     },
-    "5,9|look_right|normal": {
-      "advance": -0.1,
+    "12,9|look_right|normal": {
+      "advance": 0.0,
       "hide": 0.0,
-      "attack": 0.0
+      "attack": 19.0
     },
-    "6,10|drink|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "7,11|look_front|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "8,12|drink|normal": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "18,18|look_left|hidden": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
+    "18,18|look_front|normal": {
+      "advance": -0.7712320754503901,
+      "hide": -0.7712320754503901,
+      "attack": -0.7458134171671
     },
     "17,17|look_front|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
+      "advance": -0.40951000000000004,
+      "hide": -0.40951000000000004,
+      "attack": -0.40951000000000004
     },
-    "16,16|look_left|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
+    "16,16|look_front|normal": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
     },
-    "14,14|drink|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
+    "15,15|look_left|normal": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
     },
-    "13,13|drink|hidden": {
+    "14,14|look_right|normal": {
+      "advance": -0.19,
+      "hide": -10.0,
+      "attack": -0.1
+    },
+    "13,13|look_left|normal": {
       "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
+      "hide": -10.0,
+      "attack": -0.1
     },
     "12,12|look_front|normal": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "11,11|look_front|normal": {
-      "advance": -0.1,
+    "11,11|look_left|normal": {
+      "advance": 0.0,
       "hide": 0.0,
-      "attack": 0.0
+      "attack": -0.1
     },
-    "10,10|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
+    "9,9|drink|attacking": {
+      "advance": -66.4108339001906,
+      "hide": -68.618940391,
+      "attack": -68.618940391
     },
-    "9,9|look_front|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,8|drink|normal": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "0,18|drink|hidden": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "1,17|look_front|normal": {
+    "9,3|drink|attacking": {
       "advance": -0.19,
       "hide": -0.19,
+      "attack": -0.1
+    },
+    "9,5|look_front|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "9,7|drink|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -10.090000000000002,
+      "attack": -10.090000000000002
+    },
+    "17,9|drink|hidden": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
       "attack": -0.271
     },
-    "4,14|look_front|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
-    },
-    "6,12|look_right|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5217031000000001
-    },
-    "8,10|drink|attacking": {
-      "advance": -35.871328,
-      "hide": -34.39,
-      "attack": -34.39
-    },
-    "14,10|look_right|attacking": {
+    "16,9|look_front|hidden": {
       "advance": -0.271,
       "hide": -0.271,
       "attack": -0.271
     },
-    "12,11|look_right|attacking": {
-      "advance": 83.32281830033344,
+    "14,9|drink|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "13,9|look_right|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "12,9|drink|normal": {
+      "advance": 0.0,
       "hide": 0.0,
       "attack": 10.0
     },
-    "2,2|look_right|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
+    "0,9|look_left|normal": {
+      "advance": -0.68618940391,
+      "hide": -0.68618940391,
+      "attack": -0.68618940391
     },
-    "4,4|look_front|attacking": {
+    "1,9|look_right|hidden": {
       "advance": -0.40951000000000004,
       "hide": -0.40951000000000004,
       "attack": -0.34390000000000004
     },
-    "6,6|look_left|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5217031000000001
+    "2,9|look_left|normal": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
     },
-    "14,10|look_front|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
+    "3,9|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
     },
-    "1,1|look_front|hidden": {
+    "4,9|drink|normal": {
       "advance": -0.19,
       "hide": -0.1,
       "attack": -0.1
     },
-    "4,4|drink|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.5217031000000001
+    "5,9|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
     },
-    "8,8|look_front|attacking": {
-      "advance": -52.17031,
-      "hide": -52.17031,
-      "attack": -51.107428
+    "6,9|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
     },
-    "0,0|look_front|hidden": {
-      "advance": -10.0,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
+    "7,10|look_right|normal": {
+      "advance": 10.0,
+      "hide": 0.0,
+      "attack": 0.0
     },
-    "2,2|drink|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.46855900000000006
-    },
-    "6,6|drink|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.5217031000000001
-    },
-    "8,8|look_right|attacking": {
-      "advance": -52.17031,
-      "hide": -46.8559,
-      "attack": -46.8559
-    },
-    "2,9|look_left|attacking": {
+    "2,9|look_right|attacking": {
       "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
     },
-    "4,10|drink|attacking": {
+    "4,10|look_right|attacking": {
       "advance": -0.46855900000000006,
       "hide": -0.40951000000000004,
       "attack": -0.40951000000000004
     },
     "6,11|drink|attacking": {
-      "advance": 81.4697981114816,
+      "advance": 56.953279,
       "hide": 0.0,
       "attack": 0.0
     },
-    "9,12|look_right|attacking": {
-      "advance": -0.6125795110000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
+    "18,9|look_right|normal": {
+      "advance": -0.7458134171671,
+      "hide": -0.7458134171671,
+      "attack": -0.717570463519
     },
-    "9,2|look_front|attacking": {
-      "advance": -0.34390000000000004,
+    "17,9|look_left|normal": {
+      "advance": -0.40951000000000004,
       "hide": -0.34390000000000004,
       "attack": -0.34390000000000004
     },
-    "18,18|look_front|hidden": {
-      "advance": -0.46855900000000006,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
-    },
-    "17,17|look_front|hidden": {
+    "14,9|look_front|attacking": {
       "advance": -0.19,
       "hide": -0.19,
       "attack": -0.1
     },
-    "14,14|drink|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
+    "12,10|look_left|attacking": {
+      "advance": 34.39,
+      "hide": 0.0,
+      "attack": 0.0
     },
-    "12,12|look_right|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "10,10|look_left|attacking": {
-      "advance": -46.90904410000001,
-      "hide": -52.17031,
-      "attack": -41.547889000000005
-    },
-    "9,8|look_left|attacking": {
-      "advance": -61.401840391,
-      "hide": -61.296693148900005,
-      "attack": -65.13215599
-    },
-    "18,18|drink|hidden": {
+    "9,18|look_right|hidden": {
       "advance": -0.40951000000000004,
-      "hide": -0.46855900000000006,
+      "hide": -0.40951000000000004,
       "attack": -0.40951000000000004
     },
-    "18,0|look_left|hidden": {
-      "advance": -10.0,
-      "hide": -0.68618940391,
-      "attack": -0.6513215599000001
-    },
-    "9,0|look_front|hidden": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
-    },
-    "9,3|look_left|attacking": {
+    "9,17|drink|hidden": {
       "advance": -0.271,
-      "hide": -0.19,
+      "hide": -0.271,
       "attack": -0.19
     },
-    "9,5|look_right|attacking": {
-      "advance": -10.30951,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "9,7|drink|attacking": {
-      "advance": -10.368559000000001,
-      "hide": -9.181000000000001,
-      "attack": -10.090000000000002
-    },
-    "9,18|drink|hidden": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "9,13|look_left|attacking": {
-      "advance": -10.090000000000002,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "9,11|look_left|attacking": {
-      "advance": -21.781850869899998,
-      "hide": -17.2,
-      "attack": -19.081000000000003
-    },
-    "9,9|drink|attacking": {
-      "advance": -69.04804051017152,
-      "hide": -67.19638887544903,
-      "attack": -68.618940391
-    },
-    "9,16|look_right|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.46855900000000006
-    },
-    "9,14|drink|attacking": {
-      "advance": -10.171000000000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "9,10|look_right|attacking": {
-      "advance": -54.040851100000005,
-      "hide": -53.179916680000005,
-      "attack": -56.953279
-    },
-    "9,16|look_front|hidden": {
-      "advance": -0.271,
-      "hide": -10.0,
+    "9,16|drink|normal": {
+      "advance": -0.40951000000000004,
+      "hide": -0.271,
       "attack": -0.19
     },
     "9,15|drink|normal": {
-      "advance": -0.19,
-      "hide": -10.0,
-      "attack": -0.19
+      "advance": -10.0,
+      "hide": -0.1,
+      "attack": -0.1
     },
-    "9,4|drink|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
+    "0,0|look_front|normal": {
+      "advance": -10.0,
+      "hide": -0.7458134171671,
+      "attack": -0.7458134171671
+    },
+    "2,16|look_right|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "4,14|look_front|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
       "attack": -0.40951000000000004
     },
-    "9,8|look_right|attacking": {
-      "advance": -45.8461621,
-      "hide": -40.951,
-      "attack": -40.360510000000005
+    "0,9|look_left|hidden": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "3,9|look_left|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "5,10|look_right|attacking": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "7,11|drink|attacking": {
+      "advance": 48.205690723000004,
+      "hide": 0.0,
+      "attack": 0.0
     },
     "2,9|drink|attacking": {
       "advance": -0.46855900000000006,
       "hide": -0.46855900000000006,
       "attack": -0.40951000000000004
     },
-    "4,10|look_left|attacking": {
+    "4,10|drink|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.271
+    },
+    "16,9|look_right|attacking": {
       "advance": -0.46855900000000006,
       "hide": -0.46855900000000006,
       "attack": -0.40951000000000004
     },
-    "18,9|drink|normal": {
-      "advance": -0.6125795110000001,
-      "hide": -0.6125795110000001,
-      "attack": -0.6125795110000001
+    "14,10|look_right|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
     },
-    "16,9|look_left|normal": {
-      "advance": -0.34390000000000004,
-      "hide": -0.271,
-      "attack": -0.271
+    "12,11|look_left|attacking": {
+      "advance": 74.58134171671,
+      "hide": 10.0,
+      "attack": 0.0
     },
-    "13,9|look_left|attacking": {
+    "18,0|drink|normal": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5217031000000001
+    },
+    "17,1|look_right|normal": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "16,2|drink|normal": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "15,3|look_right|normal": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "14,4|look_left|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "13,5|look_left|normal": {
+      "advance": -10.090000000000002,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "12,6|look_left|normal": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "11,10|drink|attacking": {
-      "advance": 10.0,
+    "11,7|look_left|normal": {
+      "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "16,2|look_left|attacking": {
-      "advance": -0.6125795110000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
+    "10,8|look_front|normal": {
+      "advance": -10.0,
+      "hide": -0.1,
+      "attack": 0.0
     },
-    "14,4|look_front|attacking": {
+    "14,10|look_front|attacking": {
+      "advance": -0.40951000000000004,
+      "hide": -0.40951000000000004,
+      "attack": -0.34390000000000004
+    },
+    "12,11|look_right|attacking": {
+      "advance": 87.84233454094309,
+      "hide": 0.0,
+      "attack": 10.0
+    },
+    "9,0|look_front|normal": {
       "advance": -0.6513215599000001,
       "hide": -0.6125795110000001,
       "attack": -0.6125795110000001
     },
-    "12,6|drink|attacking": {
-      "advance": -0.717570463519,
+    "9,2|drink|hidden": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "9,3|drink|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,8|drink|attacking": {
+      "advance": -35.0461,
+      "hide": -40.951,
+      "attack": -40.360510000000005
+    },
+    "16,9|look_front|attacking": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "1,9|look_left|hidden": {
+      "advance": -0.19,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "2,10|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": -0.1
+    },
+    "3,11|look_right|normal": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "0,9|look_front|hidden": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "2,10|look_right|hidden": {
+      "advance": -0.1,
+      "hide": -9.1,
+      "attack": -10.0
+    },
+    "3,11|drink|normal": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "18,18|drink|normal": {
+      "advance": -0.68618940391,
       "hide": -0.68618940391,
-      "attack": -9.181000000000001
+      "attack": -0.6513215599000001
     },
-    "10,8|look_left|attacking": {
-      "advance": -52.17031,
-      "hide": -46.8559,
-      "attack": -48.77958520000001
+    "18,18|look_right|hidden": {
+      "advance": -19.0,
+      "hide": -0.6513215599000001,
+      "attack": -0.6513215599000001
     },
-    "14,4|drink|attacking": {
+    "1,17|look_left|hidden": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.19
+    },
+    "2,16|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,13|drink|attacking": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "7,11|look_left|attacking": {
+      "advance": 37.22310847,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "18,9|look_right|hidden": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "14,9|look_left|attacking": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.19
+    },
+    "12,10|drink|attacking": {
+      "advance": 40.951,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "0,0|look_right|normal": {
+      "advance": -0.68618940391,
+      "hide": -0.6513215599000001,
+      "attack": -0.6513215599000001
+    },
+    "1,1|look_front|normal": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.19
+    },
+    "18,0|look_left|hidden": {
+      "advance": -19.0,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
+    },
+    "16,9|look_right|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "15,9|look_left|hidden": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "14,9|look_right|normal": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "13,9|look_right|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": -0.1
+    },
+    "12,9|look_left|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "11,9|look_right|normal": {
+      "advance": 10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "6,11|look_right|attacking": {
+      "advance": 89.05810108684878,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "16,9|look_left|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
+    },
+    "14,10|drink|attacking": {
+      "advance": -0.40951000000000004,
+      "hide": -0.40951000000000004,
+      "attack": -0.40951000000000004
+    },
+    "12,11|drink|attacking": {
+      "advance": 77.123207545039,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "18,0|look_right|normal": {
+      "advance": -0.68618940391,
+      "hide": -0.68618940391,
+      "attack": -0.6513215599000001
+    },
+    "17,1|drink|normal": {
+      "advance": -0.46855900000000006,
+      "hide": -0.40951000000000004,
+      "attack": -0.40951000000000004
+    },
+    "16,2|look_left|normal": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "15,3|look_front|normal": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "14,4|drink|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "13,5|drink|hidden": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "1,17|look_front|hidden": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "9,18|look_left|normal": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.6125795110000001
+    },
+    "9,17|look_front|normal": {
+      "advance": -0.46855900000000006,
+      "hide": -0.40951000000000004,
+      "attack": -0.40951000000000004
+    },
+    "9,16|look_left|normal": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,13|look_front|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "9,11|drink|attacking": {
+      "advance": -10.090000000000002,
+      "hide": -10.0,
+      "attack": -10.58618940391
+    },
+    "9,9|look_left|attacking": {
+      "advance": -50.71570283890001,
+      "hide": -46.90904410000001,
+      "attack": -50.816000444877105
+    },
+    "9,7|look_front|attacking": {
+      "advance": -24.022,
+      "hide": -27.1,
+      "attack": -24.182022789999998
+    },
+    "0,18|look_front|normal": {
+      "advance": -10.0,
+      "hide": -0.68618940391,
+      "attack": -0.6513215599000001
+    },
+    "0,9|drink|hidden": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "5,10|look_left|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "18,18|look_right|normal": {
+      "advance": -19.0,
+      "hide": -0.8332281830033343,
+      "attack": -0.814697981114816
+    },
+    "1,1|look_right|normal": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "2,2|look_right|normal": {
+      "advance": -0.271,
+      "hide": -10.0,
+      "attack": -0.271
+    },
+    "3,3|look_left|normal": {
+      "advance": -0.19,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,4|look_right|normal": {
+      "advance": -0.1,
+      "hide": -10.0,
+      "attack": 0.0
+    },
+    "5,5|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "6,6|look_front|normal": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "18,0|look_left|normal": {
+      "advance": -19.0,
+      "hide": -0.6513215599000001,
+      "attack": -0.6513215599000001
+    },
+    "3,9|drink|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "0,0|look_right|hidden": {
+      "advance": -0.6125795110000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.6125795110000001
+    },
+    "1,1|look_right|hidden": {
+      "advance": -0.271,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "6,6|look_right|attacking": {
       "advance": -0.5217031000000001,
       "hide": -0.5217031000000001,
       "attack": -0.5217031000000001
     },
-    "18,0|look_front|hidden": {
+    "8,8|look_right|attacking": {
+      "advance": -48.08632572100001,
+      "hide": -52.17031,
+      "attack": -46.8559
+    },
+    "9,17|look_left|hidden": {
+      "advance": -9.319510000000001,
+      "hide": -8.29,
+      "attack": -0.271
+    },
+    "15,9|look_right|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "13,10|look_right|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "0,18|look_left|hidden": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "1,17|look_left|normal": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "6,12|look_front|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5217031000000001
+    },
+    "9,8|look_front|attacking": {
+      "advance": -52.01015599,
+      "hide": -55.9966852,
+      "attack": -52.21813969000001
+    },
+    "16,2|look_front|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "14,4|look_left|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5217031000000001
+    },
+    "12,6|drink|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.40951000000000004
+    },
+    "10,8|look_left|attacking": {
+      "advance": -46.8559,
+      "hide": -49.736179,
+      "attack": -48.977325721000014
+    },
+    "18,18|drink|hidden": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
+    },
+    "17,17|look_right|normal": {
       "advance": -0.40951000000000004,
       "hide": -0.40951000000000004,
+      "attack": -0.40951000000000004
+    },
+    "16,16|look_left|normal": {
+      "advance": -0.34390000000000004,
+      "hide": -10.0,
+      "attack": -0.271
+    },
+    "15,15|look_front|normal": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "0,18|look_front|hidden": {
+      "advance": -10.0,
+      "hide": -0.6513215599000001,
+      "attack": -0.68618940391
+    },
+    "18,0|look_right|hidden": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "17,1|drink|hidden": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "16,2|look_front|hidden": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "15,3|drink|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "14,4|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "13,5|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "12,6|drink|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "11,7|look_right|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "10,8|look_right|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,18|drink|normal": {
+      "advance": -0.68618940391,
+      "hide": -0.68618940391,
+      "attack": -0.68618940391
+    },
+    "9,18|drink|hidden": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "9,15|look_right|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,13|drink|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "9,11|look_front|attacking": {
+      "advance": -10.368559000000001,
+      "hide": -19.0,
+      "attack": -7.685659000000001
+    },
+    "9,9|look_front|attacking": {
+      "advance": -65.13215599,
+      "hide": -64.37376716958019,
+      "attack": -67.9215835108
+    },
+    "6,11|look_front|attacking": {
+      "advance": 19.0,
+      "hide": 86.49148282327009,
+      "attack": 0.0
+    },
+    "16,2|look_right|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.40951000000000004
+    },
+    "12,6|look_front|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.40951000000000004
+    },
+    "10,8|drink|attacking": {
+      "advance": -40.951,
+      "hide": -43.673013100000006,
+      "attack": -44.953210000000006
+    },
+    "9,18|look_front|hidden": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
       "attack": -0.34390000000000004
+    },
+    "9,17|look_right|normal": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "9,14|look_front|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "9,12|look_front|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "9,10|look_front|attacking": {
+      "advance": -42.270309999999995,
+      "hide": -50.6291311,
+      "attack": -46.8559
+    },
+    "2,16|look_front|attacking": {
+      "advance": -0.6125795110000001,
+      "hide": -0.6125795110000001,
+      "attack": -0.5695327900000001
+    },
+    "4,14|look_right|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
+    },
+    "2,9|look_front|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "4,4|look_front|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "8,8|look_left|attacking": {
+      "advance": -40.951,
+      "hide": -45.67492,
+      "attack": -40.951
+    },
+    "18,0|look_front|normal": {
+      "advance": -0.7458134171671,
+      "hide": -0.7458134171671,
+      "attack": -0.7458134171671
+    },
+    "15,3|look_left|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "13,5|look_right|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "11,7|look_left|attacking": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "9,9|look_right|attacking": {
+      "advance": -71.7570463519,
+      "hide": -69.104207545039,
+      "attack": -71.861941645039
+    },
+    "2,9|look_right|normal": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "3,9|look_left|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "4,9|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "5,9|look_right|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "6,9|drink|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "7,9|look_front|normal": {
+      "advance": 0.0,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "7,9|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "8,10|drink|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,11|drink|normal": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,4|drink|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "6,6|look_left|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5695327900000001
+    },
+    "9,5|drink|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "12,11|look_front|attacking": {
+      "advance": 79.4108867905351,
+      "hide": 27.1,
+      "attack": 0.0
+    },
+    "0,0|look_front|hidden": {
+      "advance": -27.1,
+      "hide": -0.5695327900000001,
+      "attack": -0.5695327900000001
+    },
+    "4,14|look_left|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.40951000000000004,
+      "attack": -0.40951000000000004
+    },
+    "6,12|drink|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5695327900000001
+    },
+    "16,16|look_left|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "14,14|look_right|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5695327900000001
+    },
+    "12,12|look_right|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "10,10|look_right|attacking": {
+      "advance": -52.17031,
+      "hide": -55.9966852,
+      "attack": -52.17031
+    },
+    "18,0|look_front|hidden": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
     },
     "17,1|look_right|hidden": {
       "advance": -0.271,
@@ -1763,691 +1798,726 @@
     "15,3|drink|normal": {
       "advance": -0.19,
       "hide": -0.19,
-      "attack": -0.19
+      "attack": -0.1
     },
-    "14,4|drink|hidden": {
-      "advance": -0.1,
+    "13,5|look_front|attacking": {
+      "advance": -0.19,
       "hide": -0.1,
-      "attack": 0.0
+      "attack": -0.1
     },
-    "14,4|look_left|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "13,5|look_front|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "12,6|look_left|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "10,8|look_front|normal": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "17,9|look_front|hidden": {
-      "advance": -0.34390000000000004,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "14,9|look_left|attacking": {
+    "11,7|look_right|attacking": {
       "advance": -0.19,
       "hide": -0.19,
-      "attack": -0.19
+      "attack": -10.0
     },
-    "2,16|look_right|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
+    "18,18|look_front|hidden": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5695327900000001
     },
-    "9,1|drink|hidden": {
+    "17,17|look_left|normal": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "16,16|look_right|hidden": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "15,15|drink|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "14,14|drink|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "12,12|look_front|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5695327900000001
+    },
+    "10,10|drink|attacking": {
+      "advance": -44.15131,
+      "hide": -39.644733834010005,
+      "attack": -42.197428
+    },
+    "17,17|look_right|hidden": {
       "advance": -0.271,
       "hide": -0.271,
       "attack": -0.271
     },
-    "9,2|drink|normal": {
-      "advance": -0.40951000000000004,
+    "16,16|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "15,15|look_right|normal": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "13,13|look_right|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,16|look_right|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "9,14|drink|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.40951000000000004
+    },
+    "9,12|drink|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
+    },
+    "2,16|look_left|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "8,10|look_left|attacking": {
+      "advance": -51.107428,
+      "hide": -46.8559,
+      "attack": -46.8559
+    },
+    "1,1|drink|normal": {
+      "advance": -0.271,
+      "hide": -0.34390000000000004,
+      "attack": -0.271
+    },
+    "2,2|drink|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "3,3|look_front|normal": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "4,4|look_left|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "7,7|look_left|attacking": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "9,0|look_left|hidden": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "9,1|look_right|hidden": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,4|look_right|attacking": {
+      "advance": -10.0,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "17,17|look_left|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "14,14|look_left|attacking": {
+      "advance": -0.46855900000000006,
       "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
+      "attack": -0.40951000000000004
     },
-    "9,3|drink|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
+    "4,10|look_left|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
     },
-    "9,4|look_front|normal": {
-      "advance": -0.1,
+    "6,11|look_left|attacking": {
+      "advance": 68.618940391,
       "hide": 0.0,
       "attack": 0.0
     },
-    "9,5|look_right|hidden": {
+    "0,0|look_left|hidden": {
+      "advance": -10.0,
+      "hide": -0.5695327900000001,
+      "attack": -0.5695327900000001
+    },
+    "8,10|look_right|attacking": {
+      "advance": -46.8559,
+      "hide": -44.953210000000006,
+      "attack": -46.324459000000004
+    },
+    "1,17|look_right|hidden": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
-    "9,6|look_left|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
+    "16,16|look_front|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
     },
-    "9,7|look_front|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
+    "14,14|look_front|attacking": {
+      "advance": -0.6125795110000001,
+      "hide": -0.6125795110000001,
+      "attack": -0.6125795110000001
     },
-    "9,8|look_left|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
+    "12,12|look_left|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5217031000000001
     },
-    "3,9|drink|hidden": {
+    "10,10|look_left|attacking": {
+      "advance": -52.17031,
+      "hide": -46.90904410000001,
+      "attack": -56.953279
+    },
+    "2,9|drink|hidden": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
-    "4,9|look_left|normal": {
+    "3,9|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,9|look_front|hidden": {
       "advance": 0.0,
       "hide": -0.1,
       "attack": 0.0
     },
-    "4,9|drink|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,9|look_front|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "6,9|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "7,10|drink|normal": {
-      "advance": 10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "12,11|drink|attacking": {
-      "advance": 74.58134171671,
-      "hide": 0.0,
-      "attack": 19.0
-    },
-    "9,18|look_left|hidden": {
-      "advance": -0.46855900000000006,
-      "hide": -0.46855900000000006,
-      "attack": -0.40951000000000004
-    },
-    "9,15|drink|attacking": {
-      "advance": -9.253900000000002,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "9,2|look_left|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.46855900000000006
-    },
-    "9,6|look_right|attacking": {
-      "advance": -0.6125795110000001,
-      "hide": -0.6125795110000001,
-      "attack": -10.243900000000002
-    },
-    "9,8|drink|attacking": {
-      "advance": -42.436765990000005,
-      "hide": -51.107428,
-      "attack": -44.953210000000006
-    },
-    "8,8|look_left|attacking": {
-      "advance": -52.17031,
-      "hide": -52.17031,
-      "attack": -54.7625611
-    },
-    "9,17|look_right|hidden": {
-      "advance": -0.34390000000000004,
-      "hide": -10.243900000000002,
-      "attack": -0.271
-    },
-    "9,16|look_left|hidden": {
-      "advance": -0.1,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "9,15|look_front|normal": {
+    "4,9|look_left|hidden": {
       "advance": -0.1,
       "hide": -0.1,
-      "attack": -0.1
+      "attack": 0.0
     },
-    "9,14|drink|normal": {
+    "5,10|look_right|normal": {
       "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "2,2|look_front|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "4,4|look_right|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.40951000000000004
-    },
-    "6,6|look_right|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
-    },
-    "4,10|look_right|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.271
-    },
-    "6,11|look_right|attacking": {
-      "advance": 83.32281830033344,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "15,3|look_right|attacking": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "13,5|look_right|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "11,7|look_right|attacking": {
-      "advance": -10.171000000000001,
-      "hide": -0.271,
-      "attack": -0.19
-    },
-    "9,2|drink|hidden": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "9,3|look_front|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,4|drink|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,5|look_front|normal": {
+    "3,10|look_right|attacking": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
-    "9,6|look_front|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,7|look_front|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,8|drink|hidden": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,15|look_front|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "9,13|look_front|attacking": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "9,1|look_front|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "1,17|look_left|hidden": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.19
-    },
-    "2,16|drink|hidden": {
+    "5,11|look_right|attacking": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": 0.0
     },
-    "3,15|drink|normal": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "3,15|drink|hidden": {
-      "advance": -10.090000000000002,
-      "hide": -10.0,
-      "attack": -0.1
-    },
-    "4,14|drink|normal": {
-      "advance": -0.1,
+    "7,13|drink|attacking": {
+      "advance": 27.1,
       "hide": 0.0,
       "attack": 0.0
-    },
-    "5,13|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "3,9|look_front|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.19
-    },
-    "5,10|look_front|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "16,2|look_front|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "12,6|look_front|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
-    },
-    "16,16|look_front|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
-    },
-    "14,14|look_front|attacking": {
-      "advance": -0.68618940391,
-      "hide": -0.6513215599000001,
-      "attack": -0.6513215599000001
-    },
-    "12,12|look_left|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
-    },
-    "10,10|look_front|attacking": {
-      "advance": -40.951,
-      "hide": -34.39,
-      "attack": -36.2866231
-    },
-    "3,3|look_right|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "5,5|look_right|attacking": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "7,7|look_left|attacking": {
-      "advance": -0.271,
-      "hide": -0.1,
-      "attack": -0.19
-    },
-    "18,0|drink|hidden": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
-    },
-    "14,4|look_right|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5217031000000001
-    },
-    "10,8|look_front|attacking": {
-      "advance": -47.393100100000005,
-      "hide": -46.50210010000001,
-      "attack": -46.8559
-    },
-    "0,18|look_right|hidden": {
-      "advance": -40.951,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "2,16|look_front|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "4,14|look_right|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
-    },
-    "16,16|look_left|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "12,12|drink|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "10,10|drink|attacking": {
-      "advance": -39.6388,
-      "hide": -34.39,
-      "attack": -33.032811790000004
-    },
-    "16,2|look_right|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -0.5217031000000001
-    },
-    "14,4|look_left|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
-    },
-    "9,14|look_left|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -9.1
-    },
-    "1,1|drink|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "2,2|look_front|normal": {
-      "advance": -0.271,
-      "hide": -10.090000000000002,
-      "attack": -0.19
-    },
-    "3,3|look_right|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "16,16|look_right|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
-    },
-    "14,14|look_right|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "2,9|look_right|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.40951000000000004,
-      "attack": -0.34390000000000004
-    },
-    "16,9|look_front|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "3,11|look_right|attacking": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "6,12|drink|attacking": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "8,10|look_right|attacking": {
-      "advance": -61.2579511,
-      "hide": -61.2579511,
-      "attack": -61.401840391
-    },
-    "4,14|look_left|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "8,10|look_front|attacking": {
-      "advance": -40.951,
-      "hide": -40.951,
-      "attack": -41.01004900000001
-    },
-    "0,0|look_front|normal": {
-      "advance": -34.39,
-      "hide": -0.7712320754503901,
-      "attack": -0.7458134171671
-    },
-    "18,9|look_left|hidden": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
     },
     "16,9|drink|attacking": {
-      "advance": -0.5695327900000001,
+      "advance": -0.40951000000000004,
+      "hide": -0.40951000000000004,
+      "attack": -0.40951000000000004
+    },
+    "9,2|drink|attacking": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.271
+    },
+    "9,4|drink|attacking": {
+      "advance": -0.5217031000000001,
       "hide": -0.5217031000000001,
       "attack": -0.5217031000000001
     },
-    "1,17|look_right|normal": {
+    "3,15|look_front|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "5,13|look_left|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "9,2|look_front|normal": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "17,9|look_left|hidden": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "16,9|drink|normal": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "13,9|look_right|attacking": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "16,2|drink|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "14,4|look_front|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5217031000000001
+    },
+    "9,15|look_left|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "9,13|look_left|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "11,10|look_left|attacking": {
+      "advance": 27.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "8,10|look_front|attacking": {
+      "advance": -52.17031,
+      "hide": -49.736179,
+      "attack": -46.8559
+    },
+    "18,0|drink|hidden": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "13,5|look_left|attacking": {
+      "advance": -0.19,
+      "hide": -0.271,
+      "attack": -0.1
+    },
+    "2,2|look_left|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "8,8|drink|attacking": {
+      "advance": -56.953279,
+      "hide": -56.953279,
+      "attack": -60.048338239900005
+    },
+    "2,9|look_front|hidden": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "3,9|look_right|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,10|drink|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,16|look_left|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.46855900000000006
+    },
+    "9,10|look_left|attacking": {
+      "advance": -46.8559,
+      "hide": -51.107428,
+      "attack": -45.67492
+    },
+    "9,15|look_left|hidden": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "9,13|drink|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "9,12|drink|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,11|look_right|normal": {
+      "advance": 0.0,
+      "hide": 0.0,
+      "attack": -10.0
+    },
+    "9,6|drink|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -10.243900000000002,
+      "attack": -0.5695327900000001
+    },
+    "2,2|look_right|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "9,0|look_right|hidden": {
       "advance": -0.40951000000000004,
       "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "9,1|look_left|hidden": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,3|look_front|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,5|look_left|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "9,16|drink|attacking": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "9,14|look_right|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.40951000000000004,
       "attack": -0.40951000000000004
     },
-    "6,12|look_front|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5695327900000001
+    "9,10|look_right|attacking": {
+      "advance": -55.9966852,
+      "hide": -41.792013100000005,
+      "attack": -51.107428
     },
-    "9,12|look_front|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -10.090000000000002,
-      "attack": -0.5695327900000001
+    "14,10|look_left|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
     },
-    "3,3|drink|attacking": {
-      "advance": -0.19,
+    "15,9|look_front|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "4,10|look_front|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "3,3|look_front|attacking": {
+      "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
     "5,5|look_left|attacking": {
-      "advance": -0.19,
+      "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
+    },
+    "7,7|look_right|attacking": {
+      "advance": -10.090000000000002,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "6,12|look_left|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "14,14|drink|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
+    },
+    "1,9|drink|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "4,9|look_front|attacking": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "6,10|look_right|attacking": {
+      "advance": 0.0,
+      "hide": 10.0,
+      "attack": 0.0
+    },
+    "2,2|drink|attacking": {
+      "advance": -0.40951000000000004,
+      "hide": -0.40951000000000004,
+      "attack": -0.40951000000000004
+    },
+    "18,18|look_left|hidden": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "17,17|look_front|hidden": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "16,16|look_front|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "16,16|look_left|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "15,15|look_front|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "14,14|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "11,11|look_right|attacking": {
+      "advance": 39.538189477989995,
+      "hide": 10.0,
+      "attack": 0.0
+    },
+    "3,11|look_front|attacking": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": -0.1
+    },
+    "5,13|look_front|attacking": {
+      "advance": -10.0,
+      "hide": -0.271,
+      "attack": -10.171000000000001
+    },
+    "11,10|look_right|attacking": {
+      "advance": 10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "16,16|look_right|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.40951000000000004
+    },
+    "17,17|drink|hidden": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "16,16|drink|attacking": {
+      "advance": -0.5217031000000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.46855900000000006
+    },
+    "17,1|look_front|normal": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "15,15|look_left|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "13,13|drink|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "12,12|drink|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5695327900000001,
+      "attack": -0.5695327900000001
+    },
+    "2,2|look_left|normal": {
+      "advance": -0.19,
+      "hide": -10.090000000000002,
+      "attack": -0.19
+    },
+    "3,3|drink|hidden": {
+      "advance": -10.0,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "10,10|look_front|attacking": {
+      "advance": -46.8559,
+      "hide": -46.8559,
+      "attack": -44.953210000000006
+    },
+    "9,2|look_front|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.40951000000000004,
+      "attack": -0.40951000000000004
+    },
+    "14,4|drink|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.40951000000000004
     },
     "12,6|look_left|attacking": {
       "advance": -0.5695327900000001,
       "hide": -0.5217031000000001,
       "attack": -0.5217031000000001
     },
-    "10,8|drink|attacking": {
-      "advance": -56.953279,
-      "hide": -56.996325721000005,
-      "attack": -61.2579511
+    "10,8|look_right|attacking": {
+      "advance": -44.953210000000006,
+      "hide": -34.39,
+      "attack": -40.360510000000005
     },
-    "9,17|look_front|hidden": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
+    "4,4|look_right|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -0.5217031000000001,
+      "attack": -0.5217031000000001
     },
-    "7,11|look_left|attacking": {
-      "advance": 26.872838479000002,
-      "hide": -0.1,
+    "9,12|look_left|attacking": {
+      "advance": -0.5695327900000001,
+      "hide": -10.243900000000002,
+      "attack": -10.368559000000001
+    },
+    "10,8|look_front|attacking": {
+      "advance": -40.951,
+      "hide": -34.45561000000001,
+      "attack": -38.83690000000001
+    },
+    "12,9|look_left|attacking": {
+      "advance": 0.0,
+      "hide": 19.0,
       "attack": 0.0
     },
-    "12,11|look_left|attacking": {
-      "advance": 74.58134171671,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "15,15|look_front|attacking": {
+    "9,16|drink|hidden": {
       "advance": -0.19,
       "hide": -0.19,
       "attack": -0.1
     },
-    "15,15|drink|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
+    "9,15|look_right|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
     },
-    "13,13|drink|attacking": {
+    "9,14|look_front|normal": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "15,9|look_left|attacking": {
-      "advance": -0.271,
+    "9,13|drink|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "9,12|look_left|normal": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "17,1|look_left|normal": {
+      "advance": -0.40951000000000004,
       "hide": -0.271,
+      "attack": -0.34390000000000004
+    },
+    "16,2|look_front|normal": {
+      "advance": -0.271,
+      "hide": -0.19,
       "attack": -0.19
-    },
-    "13,10|look_left|attacking": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "4,9|look_right|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "6,10|look_front|attacking": {
-      "advance": 19.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "17,1|look_front|hidden": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
     },
     "12,6|look_right|attacking": {
       "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
+      "hide": -0.5217031000000001,
       "attack": -0.46855900000000006
     },
-    "17,9|look_left|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "11,11|look_left|attacking": {
-      "advance": 41.997992843177,
-      "hide": 0.0,
-      "attack": -0.1
-    },
-    "16,9|look_front|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "14,9|look_front|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "13,9|look_right|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "1,9|drink|hidden": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -9.181000000000001
-    },
-    "2,9|look_left|normal": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "3,9|look_left|normal": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "6,9|drink|attacking": {
-      "advance": 19.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,6|look_left|attacking": {
+    "9,16|look_front|attacking": {
       "advance": -0.40951000000000004,
       "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
+      "attack": -0.34390000000000004
     },
-    "7,11|look_right|attacking": {
-      "advance": 33.123184378999994,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "13,5|look_front|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "11,7|drink|attacking": {
+    "9,3|look_left|attacking": {
       "advance": -0.271,
       "hide": -0.271,
       "attack": -0.19
     },
-    "16,16|drink|attacking": {
+    "9,3|look_right|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "15,15|drink|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "13,13|look_front|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "1,1|look_left|hidden": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "5,5|look_right|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "7,7|look_front|attacking": {
+      "advance": -10.0,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "15,15|look_right|attacking": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "6,6|drink|attacking": {
       "advance": -0.40951000000000004,
       "hide": -0.34390000000000004,
       "attack": -0.34390000000000004
     },
-    "10,10|look_right|attacking": {
-      "advance": -46.8559,
-      "hide": -46.8559,
-      "attack": -40.951
-    },
-    "3,3|look_left|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "7,7|drink|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "14,10|look_left|attacking": {
+    "9,6|look_front|attacking": {
       "advance": -0.46855900000000006,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "9,2|drink|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.46855900000000006,
+      "hide": -0.40951000000000004,
       "attack": -0.40951000000000004
     },
-    "15,3|drink|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
+    "15,15|look_front|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
     },
-    "15,15|look_front|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "14,14|look_left|normal": {
+    "15,15|look_left|hidden": {
       "advance": -0.1,
       "hide": -0.1,
-      "attack": 0.0
+      "attack": -0.1
     },
-    "13,13|look_front|normal": {
+    "14,14|look_left|hidden": {
       "advance": -0.1,
-      "hide": 0.0,
+      "hide": -0.1,
       "attack": 0.0
     },
     "12,12|look_right|normal": {
@@ -2455,354 +2525,219 @@
       "hide": 0.0,
       "attack": 0.0
     },
-    "11,11|look_right|hidden": {
+    "11,11|drink|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "10,10|look_left|normal": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "10,10|look_left|hidden": {
-      "advance": -10.0,
+    "9,14|look_left|attacking": {
+      "advance": -0.6125795110000001,
+      "hide": -0.6125795110000001,
+      "attack": -0.5695327900000001
+    },
+    "9,16|look_left|hidden": {
+      "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "9,16|look_front|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
+    "9,15|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
     },
-    "13,10|look_front|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
+    "9,7|look_left|attacking": {
+      "advance": -17.461,
+      "hide": -19.081000000000003,
+      "attack": -8.362900000000002
     },
-    "13,10|drink|attacking": {
+    "3,15|look_left|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "4,14|look_front|normal": {
       "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
+      "hide": -10.0,
+      "attack": -0.1
     },
-    "9,1|look_right|hidden": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
+    "5,13|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
     },
-    "9,4|look_right|hidden": {
+    "6,12|look_right|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "7,11|look_front|normal": {
       "advance": 0.0,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "9,4|look_front|hidden": {
-      "advance": -0.1,
-      "hide": -10.0,
-      "attack": 0.0
-    },
-    "1,17|look_right|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "2,16|look_front|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "17,17|look_right|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "16,2|drink|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
-    },
-    "15,15|look_left|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "13,13|look_right|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.34390000000000004
-    },
-    "16,9|look_right|normal": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "15,9|look_front|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "13,9|look_right|hidden": {
-      "advance": -0.1,
       "hide": 0.0,
-      "attack": 0.0
+      "attack": -0.1
     },
-    "12,9|drink|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
+    "3,3|drink|attacking": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
     },
-    "9,14|look_front|attacking": {
-      "advance": -0.5217031000000001,
-      "hide": -0.5217031000000001,
-      "attack": -10.368559000000001
-    },
-    "9,3|look_right|normal": {
-      "advance": -10.0,
+    "5,5|look_front|attacking": {
+      "advance": -0.19,
       "hide": -0.19,
       "attack": -0.19
     },
-    "9,0|look_right|hidden": {
-      "advance": -0.5217031000000001,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "9,5|look_left|attacking": {
+    "7,7|drink|attacking": {
       "advance": -0.19,
-      "hide": -10.0,
-      "attack": -0.271
+      "hide": -0.19,
+      "attack": -0.19
     },
-    "18,18|look_right|hidden": {
-      "advance": -10.0,
-      "hide": -0.46855900000000006,
-      "attack": -0.46855900000000006
-    },
-    "13,13|look_front|attacking": {
+    "16,2|look_left|attacking": {
       "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "9,4|look_front|attacking": {
-      "advance": -0.40951000000000004,
-      "hide": -10.243900000000002,
-      "attack": -0.34390000000000004
-    },
-    "14,14|look_left|attacking": {
-      "advance": -0.34390000000000004,
       "hide": -0.271,
       "attack": -0.271
-    },
-    "12,12|look_front|attacking": {
-      "advance": -0.5695327900000001,
-      "hide": -0.5695327900000001,
-      "attack": -0.5217031000000001
-    },
-    "2,16|drink|attacking": {
-      "advance": -0.46855900000000006,
-      "hide": -0.40951000000000004,
-      "attack": -0.40951000000000004
-    },
-    "9,3|look_right|attacking": {
-      "advance": -0.271,
-      "hide": -0.1,
-      "attack": -0.19
-    },
-    "1,1|drink|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "2,2|look_right|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "3,3|drink|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "10,8|look_right|attacking": {
-      "advance": -37.9459,
-      "hide": -39.6388,
-      "attack": -34.39
-    },
-    "5,13|look_right|attacking": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "17,1|drink|normal": {
-      "advance": -0.40951000000000004,
-      "hide": -0.34390000000000004,
-      "attack": -0.40951000000000004
-    },
-    "16,2|look_left|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "15,3|look_left|hidden": {
-      "advance": -0.1,
-      "hide": -10.0,
-      "attack": 0.0
-    },
-    "9,11|drink|attacking": {
-      "advance": -10.090000000000002,
-      "hide": -0.271,
-      "attack": -10.090000000000002
-    },
-    "13,9|drink|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "11,10|look_front|attacking": {
-      "advance": 27.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,15|look_left|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "17,9|drink|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "16,9|drink|hidden": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "15,9|look_left|normal": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "13,9|drink|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "2,9|drink|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "5,9|look_left|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "7,10|drink|attacking": {
-      "advance": 10.0,
-      "hide": 0.0,
-      "attack": 0.0
     },
     "15,9|drink|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
+      "advance": -0.271,
+      "hide": -0.271,
       "attack": -0.19
     },
-    "11,11|look_right|attacking": {
-      "advance": 36.990982591291,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "6,11|look_left|attacking": {
-      "advance": 46.8559,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "15,15|look_right|attacking": {
+    "16,9|look_left|hidden": {
       "advance": -0.19,
-      "hide": -0.19,
+      "hide": -0.1,
       "attack": -0.1
     },
-    "16,9|look_right|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "2,10|drink|normal": {
+    "13,9|look_front|hidden": {
       "advance": -0.1,
-      "hide": -0.19,
+      "hide": 0.0,
       "attack": 0.0
     },
-    "3,11|look_front|normal": {
+    "12,9|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "17,1|look_left|hidden": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "14,4|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "13,5|look_right|normal": {
       "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "3,3|look_front|attacking": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "1,9|look_front|hidden": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "9,3|look_front|attacking": {
+    "3,9|look_front|attacking": {
       "advance": -0.271,
       "hide": -0.19,
       "attack": -0.19
     },
-    "18,9|look_front|hidden": {
-      "advance": -0.34390000000000004,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "11,10|look_left|attacking": {
-      "advance": 19.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "3,10|look_left|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,11|drink|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "7,13|look_left|attacking": {
-      "advance": 27.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "3,9|look_right|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "5,10|look_left|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "3,15|look_right|attacking": {
+    "5,10|look_front|attacking": {
       "advance": -0.271,
       "hide": -0.19,
-      "attack": -0.1
+      "attack": -0.19
     },
-    "15,3|look_left|attacking": {
-      "advance": -0.271,
-      "hide": -0.271,
-      "attack": -0.271
+    "7,11|look_front|attacking": {
+      "advance": 29.8835759411,
+      "hide": 0.0,
+      "attack": 0.0
     },
     "11,7|look_front|attacking": {
       "advance": -0.271,
       "hide": -0.271,
-      "attack": -0.271
+      "attack": -0.19
     },
-    "2,9|look_right|hidden": {
+    "2,2|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,5|drink|attacking": {
+      "advance": 0.0,
+      "hide": -0.1,
+      "attack": -10.0
+    },
+    "16,9|drink|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "15,9|look_right|normal": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": 0.0
     },
-    "3,9|look_right|hidden": {
+    "14,9|look_left|hidden": {
       "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "11,9|look_left|attacking": {
+      "advance": 10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,1|look_left|normal": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "2,9|look_left|attacking": {
+      "advance": -0.46855900000000006,
+      "hide": -0.46855900000000006,
+      "attack": -0.40951000000000004
+    },
+    "17,9|look_front|hidden": {
+      "advance": -0.271,
       "hide": -0.19,
+      "attack": -0.19
+    },
+    "3,15|drink|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "9,16|look_right|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "3,10|look_right|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,11|look_right|normal": {
+      "advance": -0.1,
+      "hide": -10.0,
+      "attack": 0.0
+    },
+    "9,17|look_front|hidden": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "15,3|look_right|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "4,9|look_right|attacking": {
+      "advance": 0.0,
+      "hide": 0.0,
+      "attack": -0.19
+    },
+    "6,10|drink|attacking": {
+      "advance": 27.1,
+      "hide": 0.0,
       "attack": 0.0
     },
     "3,10|look_front|attacking": {
@@ -2810,112 +2745,82 @@
       "hide": -0.1,
       "attack": 0.0
     },
-    "5,11|look_right|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
+    "5,11|drink|attacking": {
+      "advance": 0.0,
+      "hide": -0.1,
       "attack": 0.0
     },
-    "7,13|look_front|attacking": {
-      "advance": 10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,11|look_front|attacking": {
-      "advance": -0.34390000000000004,
-      "hide": -10.090000000000002,
-      "attack": -10.0
-    },
-    "1,17|drink|hidden": {
+    "3,9|look_right|attacking": {
       "advance": -0.19,
       "hide": -0.1,
       "attack": -0.1
     },
-    "2,16|look_right|hidden": {
+    "3,3|look_right|attacking": {
       "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
+      "hide": 0.0,
+      "attack": 0.0
     },
-    "5,13|look_front|attacking": {
-      "advance": -10.090000000000002,
-      "hide": -0.271,
-      "attack": -0.271
-    },
-    "0,9|look_right|hidden": {
+    "13,10|look_front|attacking": {
       "advance": -0.271,
       "hide": -0.271,
       "attack": -0.19
     },
-    "3,9|drink|attacking": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "7,7|look_front|attacking": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "13,5|look_left|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "15,3|look_front|attacking": {
+    "9,3|look_right|hidden": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
-    "16,16|drink|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "15,15|look_front|normal": {
+    "9,4|drink|hidden": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
-    "13,13|look_left|hidden": {
+    "9,5|look_front|normal": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "12,12|look_right|hidden": {
+    "9,6|look_right|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,7|drink|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,8|look_left|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,9|look_front|normal": {
       "advance": 0.0,
       "hide": 0.0,
       "attack": -10.0
     },
-    "2,10|look_right|normal": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "4,12|look_left|normal": {
-      "advance": -10.0,
+    "6,10|look_left|attacking": {
+      "advance": 10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "2,9|look_front|hidden": {
+    "14,4|look_right|attacking": {
+      "advance": -0.40951000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "13,10|drink|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "17,1|look_front|hidden": {
       "advance": -0.19,
-      "hide": -0.1,
+      "hide": -0.19,
       "attack": -0.1
     },
-    "9,15|look_left|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,5|drink|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "9,2|look_left|hidden": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "14,9|drink|hidden": {
+    "14,9|look_right|hidden": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
@@ -2925,182 +2830,182 @@
       "hide": 0.0,
       "attack": 0.0
     },
-    "12,10|look_front|attacking": {
-      "advance": 27.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "13,9|look_right|attacking": {
+    "2,16|look_right|normal": {
       "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "4,9|look_left|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
+      "hide": -10.090000000000002,
       "attack": -0.1
     },
-    "6,10|look_right|attacking": {
-      "advance": 27.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,2|look_left|normal": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "2,10|look_right|hidden": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "2,16|drink|normal": {
+    "3,15|drink|normal": {
       "advance": -0.1,
       "hide": -0.1,
-      "attack": -0.1
+      "attack": 0.0
     },
-    "15,9|look_front|attacking": {
+    "9,5|look_right|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -0.271,
+      "attack": -10.0
+    },
+    "9,17|look_right|hidden": {
       "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "3,3|look_left|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
+      "hide": -0.1,
       "attack": 0.0
     },
-    "3,9|look_front|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
+    "9,15|look_front|attacking": {
+      "advance": -0.19,
+      "hide": -10.0,
       "attack": -0.1
     },
-    "4,9|look_right|normal": {
+    "9,11|look_right|attacking": {
+      "advance": -10.0,
+      "hide": -9.1,
+      "attack": -10.0
+    },
+    "16,2|look_right|normal": {
+      "advance": -0.19,
+      "hide": -10.090000000000002,
+      "attack": -0.19
+    },
+    "15,3|look_right|hidden": {
       "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "14,4|drink|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "11,7|drink|attacking": {
+      "advance": 4.261265900000001,
       "hide": -0.1,
       "attack": 0.0
     },
-    "5,10|drink|normal": {
+    "14,4|look_front|normal": {
       "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "6,11|drink|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "7,12|drink|normal": {
-      "advance": -10.0,
-      "hide": 0.0,
+      "hide": -10.0,
       "attack": 0.0
     },
     "13,5|drink|attacking": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "11,7|look_left|attacking": {
-      "advance": -0.19,
-      "hide": -0.19,
-      "attack": -0.1
-    },
-    "16,2|drink|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "9,3|look_right|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "3,15|look_front|attacking": {
       "advance": -0.271,
       "hide": -0.19,
       "attack": -0.19
     },
-    "12,10|drink|attacking": {
-      "advance": 27.1,
+    "9,14|drink|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "9,13|look_right|normal": {
+      "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "15,3|look_front|normal": {
+    "9,13|look_right|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,11|look_left|attacking": {
+      "advance": -0.34390000000000004,
+      "hide": -2.1285100000000003,
+      "attack": -19.081000000000003
+    },
+    "12,10|look_right|attacking": {
+      "advance": 10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "16,2|look_left|hidden": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
-    "13,5|look_left|hidden": {
-      "advance": -0.1,
+    "15,3|look_left|hidden": {
+      "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "12,6|drink|hidden": {
+    "1,17|drink|hidden": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "6,10|look_front|attacking": {
+      "advance": 19.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "15,3|drink|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "1,1|look_front|hidden": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.19
+    },
+    "9,15|look_front|hidden": {
       "advance": -10.0,
       "hide": -0.1,
-      "attack": 0.0
-    },
-    "9,2|look_right|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "2,10|look_left|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "3,11|look_right|normal": {
-      "advance": -10.0,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "1,1|look_right|hidden": {
-      "advance": -0.1,
-      "hide": -0.1,
       "attack": -0.1
     },
-    "3,3|drink|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
+    "13,13|look_left|attacking": {
+      "advance": -0.271,
+      "hide": -0.19,
+      "attack": -0.19
     },
-    "4,4|drink|normal": {
+    "1,1|drink|hidden": {
       "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,11|look_front|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,14|look_right|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,10|look_right|attacking": {
-      "advance": -0.19,
       "hide": -0.1,
-      "attack": -0.1
+      "attack": 0.0
     },
-    "15,9|look_right|hidden": {
-      "advance": -0.19,
+    "3,15|look_right|attacking": {
+      "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "14,9|look_front|hidden": {
+    "7,11|look_right|attacking": {
+      "advance": -0.1,
+      "hide": 37.7659,
+      "attack": 0.0
+    },
+    "1,9|look_right|normal": {
+      "advance": -0.34390000000000004,
+      "hide": -0.34390000000000004,
+      "attack": -0.34390000000000004
+    },
+    "2,10|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "3,11|look_left|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,12|look_right|normal": {
       "advance": 0.0,
-      "hide": 0.0,
-      "attack": -0.1
+      "hide": -10.0,
+      "attack": 0.0
     },
-    "12,9|look_right|attacking": {
-      "advance": 27.1,
+    "9,7|look_right|attacking": {
+      "advance": -0.271,
+      "hide": -9.181000000000001,
+      "attack": -10.090000000000002
+    },
+    "3,3|look_left|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.19
+    },
+    "14,9|look_front|normal": {
+      "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "15,15|look_left|hidden": {
+    "13,9|look_front|normal": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
@@ -3110,32 +3015,127 @@
       "hide": 0.0,
       "attack": 0.0
     },
-    "2,16|look_left|hidden": {
+    "13,13|drink|normal": {
       "advance": -0.1,
       "hide": -0.1,
-      "attack": -0.1
+      "attack": 0.0
     },
-    "5,5|look_front|attacking": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
+    "12,12|look_left|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
     },
-    "17,1|look_left|hidden": {
-      "advance": -0.271,
-      "hide": -0.19,
-      "attack": -0.19
-    },
-    "16,2|look_front|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "2,10|drink|hidden": {
+    "11,11|drink|hidden": {
       "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "4,9|look_left|hidden": {
+    "2,16|look_left|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "3,15|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,14|look_right|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,13|drink|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "6,12|drink|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "7,11|look_right|normal": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "3,10|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "15,9|look_right|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "11,9|look_right|attacking": {
+      "advance": 10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "6,9|look_right|attacking": {
+      "advance": 0.0,
+      "hide": 10.0,
+      "attack": 0.0
+    },
+    "14,9|look_right|attacking": {
+      "advance": -0.19,
+      "hide": -0.19,
+      "attack": -0.1
+    },
+    "4,11|look_left|attacking": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "6,13|drink|attacking": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "13,9|look_front|attacking": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "16,2|drink|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,15|drink|attacking": {
+      "advance": -0.271,
+      "hide": -0.271,
+      "attack": -0.271
+    },
+    "15,9|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "12,9|look_right|attacking": {
+      "advance": 19.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "2,10|look_left|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "15,3|look_front|attacking": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "4,9|drink|attacking": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "3,9|look_left|hidden": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
@@ -3145,33 +3145,183 @@
       "hide": 0.0,
       "attack": 0.0
     },
-    "6,9|look_front|normal": {
-      "advance": 0.0,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "6,9|look_left|hidden": {
+    "6,9|look_left|normal": {
       "advance": -0.1,
       "hide": 0.0,
       "attack": 0.0
     },
-    "7,9|drink|normal": {
+    "7,9|look_left|normal": {
       "advance": 10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "3,15|drink|attacking": {
+    "2,2|look_left|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,4|drink|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,5|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "6,6|look_right|normal": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "15,9|drink|hidden": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "9,4|look_left|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "15,3|look_front|hidden": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,4|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,5|look_left|hidden": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,10|drink|attacking": {
+      "advance": -0.19,
+      "hide": -0.1,
+      "attack": -0.1
+    },
+    "3,9|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "4,9|look_right|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,10|look_left|normal": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,3|look_right|normal": {
+      "advance": -0.1,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "15,15|look_right|hidden": {
+      "advance": -10.0,
+      "hide": -0.1,
+      "attack": 0.0
+    },
+    "3,15|look_left|attacking": {
       "advance": -0.1,
       "hide": -0.1,
       "attack": -0.1
     },
-    "12,9|look_front|attacking": {
+    "13,9|drink|attacking": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,14|drink|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "3,11|look_right|attacking": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,13|look_right|attacking": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "9,16|look_front|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,9|look_right|attacking": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "7,10|drink|attacking": {
       "advance": 10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "14,9|look_right|attacking": {
+    "4,11|drink|attacking": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "5,11|look_left|attacking": {
       "advance": -0.1,
+      "hide": 0.0,
+      "attack": -0.1
+    },
+    "7,13|look_right|attacking": {
+      "advance": 19.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "13,13|look_front|hidden": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "14,4|look_left|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "13,5|drink|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "12,6|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "11,7|look_front|normal": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "10,8|drink|normal": {
+      "advance": -10.0,
+      "hide": 0.0,
+      "attack": 0.0
+    },
+    "2,9|look_right|hidden": {
+      "advance": -0.1,
+      "hide": 0.0,
+      "attack": -0.1
+    },
+    "5,12|look_front|attacking": {
+      "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     },
@@ -3185,185 +3335,35 @@
       "hide": 0.0,
       "attack": 0.0
     },
-    "13,5|drink|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "15,9|look_front|normal": {
-      "advance": -0.19,
-      "hide": -0.1,
-      "attack": -0.1
-    },
-    "12,9|drink|attacking": {
-      "advance": 10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "7,7|look_right|attacking": {
-      "advance": -0.1,
-      "hide": -0.19,
-      "attack": 0.0
-    },
-    "4,10|look_front|normal": {
-      "advance": -0.1,
-      "hide": -10.0,
-      "attack": 0.0
-    },
-    "5,11|look_left|normal": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "16,2|look_front|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,15|drink|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "3,10|drink|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,11|look_left|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "7,13|look_right|attacking": {
-      "advance": 10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "13,9|look_front|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "3,9|look_left|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "15,15|drink|hidden": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "9,14|look_right|hidden": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "3,10|look_right|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "4,9|drink|attacking": {
-      "advance": -0.1,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "6,10|drink|attacking": {
-      "advance": 10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "3,15|look_front|hidden": {
-      "advance": -10.0,
-      "hide": -0.1,
-      "attack": 0.0
-    },
-    "12,10|look_right|attacking": {
-      "advance": 19.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,9|look_right|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "7,10|look_right|attacking": {
-      "advance": 10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "15,3|look_front|hidden": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,9|drink|attacking": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "7,10|look_left|attacking": {
-      "advance": 10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "12,9|look_left|attacking": {
-      "advance": 0.0,
-      "hide": 10.0,
-      "attack": 0.0
-    },
     "3,3|look_front|hidden": {
       "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     },
-    "14,9|look_front|attacking": {
+    "4,9|look_left|attacking": {
       "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "4,12|look_right|attacking": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "4,4|look_left|hidden": {
-      "advance": -0.1,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "5,5|drink|normal": {
-      "advance": -10.0,
-      "hide": 0.0,
-      "attack": 0.0
-    },
-    "3,11|look_right|hidden": {
-      "advance": -10.0,
       "hide": 0.0,
       "attack": 0.0
     }
   },
   "abstractions": [
-    "IF Lion at 11,9 AND Lion is normal AND Impala does [look_right, look_left] THEN advance",
-    "IF Lion at 12,11 AND Lion is attacking AND Impala does [look_front, look_right, drink] THEN advance",
-    "IF Lion at 6,11 AND Lion is attacking AND Impala does [look_front, drink, look_right] THEN advance",
-    "IF Lion at 12,11 AND Lion is attacking AND Impala does [look_front, look_right, drink, look_left] THEN advance",
-    "IF Lion at 7,11 AND Lion is attacking AND Impala does [drink, look_left, look_right] THEN advance",
-    "IF Lion at 11,11 AND Lion is attacking AND Impala does [look_front, look_left] THEN advance",
-    "IF Lion at 12,9 AND Lion is normal AND Impala does [look_left, drink] THEN attack",
-    "IF Lion at 6,11 AND Lion is attacking AND Impala does [look_front, drink, look_right, look_left] THEN advance",
-    "IF Lion at 11,11 AND Lion is attacking AND Impala does [drink, look_front, look_left, look_right] THEN advance",
-    "IF Lion at 11,10 AND Lion is attacking AND Impala does [drink, look_front, look_left] THEN advance",
-    "IF Lion at 7,13 AND Lion is attacking AND Impala does [look_left, look_front] THEN advance",
-    "IF Lion at 12,10 AND Lion is attacking AND Impala does [look_left, look_front] THEN advance",
-    "IF Lion at 6,10 AND Lion is attacking AND Impala does [look_front, look_right] THEN advance",
-    "IF Lion at 12,10 AND Lion is attacking AND Impala does [look_left, look_front, drink] THEN advance",
-    "IF Lion at 12,9 AND Lion is attacking AND Impala does [look_right, look_front, drink] THEN advance",
-    "IF Lion at 7,13 AND Lion is attacking AND Impala does [look_left, look_front, look_right] THEN advance",
-    "IF Lion at 12,10 AND Lion is attacking AND Impala does [look_left, look_front, drink, look_right] THEN advance",
-    "IF Lion at 6,10 AND Lion is attacking AND Impala does [look_front, look_right, drink] THEN advance"
+    "IF Lion at 12,10 AND Lion is attacking AND Impala does [look_front, look_left, drink] THEN advance",
+    "IF Lion at 11,11 AND Lion is attacking AND Impala does [look_front, look_left, drink] THEN advance",
+    "IF Lion at 11,9 AND Lion is normal AND Impala does [look_front, look_right] THEN advance",
+    "IF Lion at 12,9 AND Lion is normal AND Impala does [look_right, drink] THEN attack",
+    "IF Lion at 6,11 AND Lion is attacking AND Impala does [drink, look_right] THEN advance",
+    "IF Lion at 7,11 AND Lion is attacking AND Impala does [drink, look_left] THEN advance",
+    "IF Lion at 12,11 AND Lion is attacking AND Impala does [look_left, look_right, drink, look_front] THEN advance",
+    "IF Lion at 11,10 AND Lion is attacking AND Impala does [drink, look_left, look_right] THEN advance",
+    "IF Lion at 11,11 AND Lion is attacking AND Impala does [look_left, drink, look_right] THEN advance",
+    "IF Lion at 6,11 AND Lion is attacking AND Impala does [drink, look_right, look_left] THEN advance",
+    "IF Lion at 7,11 AND Lion is attacking AND Impala does [drink, look_left, look_front] THEN advance",
+    "IF Lion at 6,10 AND Lion is attacking AND Impala does [drink, look_left] THEN advance",
+    "IF Lion at 11,9 AND Lion is attacking AND Impala does [look_left, drink] THEN advance",
+    "IF Lion at 12,10 AND Lion is attacking AND Impala does [look_front, look_left, drink, look_right] THEN advance",
+    "IF Lion at 6,10 AND Lion is attacking AND Impala does [drink, look_left, look_front] THEN advance",
+    "IF Lion at 12,9 AND Lion is normal AND Impala does [look_left, look_right, drink] THEN attack",
+    "IF Lion at 11,9 AND Lion is attacking AND Impala does [look_left, drink, look_right] THEN advance",
+    "IF Lion at 7,13 AND Lion is attacking AND Impala does [drink, look_right] THEN advance"
   ]
 }
