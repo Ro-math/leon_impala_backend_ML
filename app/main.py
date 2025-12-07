@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import simulation, training, hunting, knowledge, visualization
+from app.api import simulation, training, hunting, knowledge, visualization, logs
 
 app = FastAPI(title="Leon Impala Simulation", version="1.0.0")
 
@@ -19,6 +19,7 @@ app.include_router(training.router, prefix="/api/training", tags=["Training"])
 app.include_router(hunting.router, prefix="/api/hunting", tags=["Hunting"])
 app.include_router(knowledge.router, prefix="/api/knowledge", tags=["Knowledge"])
 app.include_router(visualization.router, prefix="/api/visualization", tags=["Visualization"])
+app.include_router(logs.router, prefix="/api/logs", tags=["Logs"])
 
 @app.get("/")
 def read_root():
